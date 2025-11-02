@@ -1,0 +1,7 @@
+*.dta
+*.sav
+*.txt
+*.pdf
+*.por
+*.zip
+**/__pycache__
