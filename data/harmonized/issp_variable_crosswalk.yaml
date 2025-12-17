@@ -1,0 +1,348 @@
+version: 1
+title: "ISSP Family & Gender Roles crosswalk (2002, 2012, 2022)"
+waves:
+  "2002":
+    study: "ZA3880"
+    data_file: "data/2002/ZA3880_v1-1-0.dta"
+    variables_file: "data/2002/ZA3880_variables_short.json"
+  "2012":
+    study: "ZA5900"
+    data_file: "data/2012/2012.sav"
+    variables_file: "data/2012/ZA5900_variables_short.json"
+  "2022":
+    study: "ZA10000"
+    data_file: "data/2022/2022.dta"
+    variables_file: "data/2022/ZA10000_variables_short.json"
+
+# Crosswalk format:
+# variables:
+#   <harmonized_name>:
+#     category: <string>
+#     years:
+#       "2002": {name: <original_var_or_null>, question: <optional>}
+#       "2012": {name: <original_var_or_null>, question: <optional>}
+#       "2022": {name: <original_var_or_null>, question: <optional>}
+
+variables:
+  # ===== Survey identifiers =====
+  survey_year:
+    category: "survey_identifiers"
+    years:
+      "2002": {name: null}
+      "2012": {name: null}
+      "2022": {name: null}
+  country_code:
+    category: "survey_identifiers"
+    years:
+      "2002": {name: "COUNTRY"}
+      "2012": {name: "country"}
+      "2022": {name: "country"}
+  country_alpha:
+    category: "survey_identifiers"
+    years:
+      "2002": {name: "C_ALPHAN"}
+      "2012": {name: "c_alphan"}
+      "2022": {name: "c_alphan"}
+  respondent_id:
+    category: "survey_identifiers"
+    years:
+      "2002": {name: "v3"}
+      "2012": {name: "CASEID"}
+      "2022": {name: "CASEID"}
+
+  # ===== Gender ideology (attitudes) =====
+  att_warm_relationship:
+    category: "attitudes_gender_ideology"
+    years:
+      "2002": {name: "v4", question: "Q1a"}
+      "2012": {name: "v5", question: "Q1a"}
+      "2022": {name: "v1", question: "Q1a"}
+  att_child_suffers:
+    category: "attitudes_gender_ideology"
+    years:
+      "2002": {name: "v5", question: "Q1b"}
+      "2012": {name: "v6", question: "Q1b"}
+      "2022": {name: "v2", question: "Q1b"}
+  att_family_suffers:
+    category: "attitudes_gender_ideology"
+    years:
+      "2002": {name: "v6", question: "Q1c"}
+      "2012": {name: "v7", question: "Q1c"}
+      "2022": {name: "v3", question: "Q1c"}
+  att_women_want_home:
+    category: "attitudes_gender_ideology"
+    years:
+      "2002": {name: "v7", question: "Q1d"}
+      "2012": {name: "v8", question: "Q1d"}
+      "2022": {name: "v4", question: "Q1d"}
+  att_housewife_fulfilling:
+    category: "attitudes_gender_ideology"
+    years:
+      "2002": {name: "v8", question: "Q1e"}
+      "2012": {name: "v9", question: "Q1e"}
+      "2022": {name: "v5", question: "Q1e"}
+  att_male_breadwinner:
+    category: "attitudes_gender_ideology"
+    years:
+      "2002": {name: "v11", question: "Q2b"}
+      "2012": {name: "v11", question: "Q2b"}
+      "2022": {name: "v6", question: "Q1f"}
+
+  # ===== Time / hours (behavior) =====
+  hh_work_hours_respondent:
+    category: "behavior_time_use"
+    years:
+      "2002": {name: "v36", question: "Q9a"}
+      "2012": {name: "v37", question: "Q16a"}
+      "2022": {name: "v34", question: "Q15a"}
+  hh_work_hours_partner:
+    category: "behavior_time_use"
+    years:
+      "2002": {name: "v37", question: "Q9b"}
+      "2012": {name: "v39", question: "Q17a"}
+      "2022": {name: "v36", question: "Q16a"}
+  hh_family_hours_respondent:
+    category: "behavior_time_use"
+    years:
+      "2002": {name: null}
+      "2012": {name: "v38", question: "Q16b"}
+      "2022": {name: "v35", question: "Q15b"}
+  hh_family_hours_partner:
+    category: "behavior_time_use"
+    years:
+      "2002": {name: null}
+      "2012": {name: "v40", question: "Q17b"}
+      "2022": {name: "v37", question: "Q16b"}
+
+  # ===== Division of tasks (behavior) =====
+  task_laundry:
+    category: "behavior_task_division"
+    years:
+      "2002": {name: "v30", question: "Q8a"}
+      "2012": {name: "v42", question: "Q19a"}
+      "2022": {name: "v39", question: "Q18a"}
+  task_small_repairs:
+    category: "behavior_task_division"
+    years:
+      "2002": {name: "v31", question: "Q8b"}
+      "2012": {name: "v43", question: "Q19b"}
+      "2022": {name: null}
+  task_care_sick:
+    category: "behavior_task_division"
+    years:
+      "2002": {name: "v32", question: "Q8c"}
+      "2012": {name: "v44", question: "Q19c"}
+      "2022": {name: "v41", question: "Q18c"}
+  task_grocery:
+    category: "behavior_task_division"
+    years:
+      "2002": {name: "v33", question: "Q8d"}
+      "2012": {name: "v45", question: "Q19d"}
+      "2022": {name: "v42", question: "Q18d"}
+  task_cleaning:
+    category: "behavior_task_division"
+    years:
+      "2002": {name: "v34", question: "Q8e"}
+      "2012": {name: "v46", question: "Q19e"}
+      "2022": {name: "v43", question: "Q18e"}
+  task_meals:
+    category: "behavior_task_division"
+    years:
+      "2002": {name: "v35", question: "Q8f"}
+      "2012": {name: "v47", question: "Q19f"}
+      "2022": {name: "v44", question: "Q18f"}
+  task_fairness:
+    category: "behavior_task_division"
+    years:
+      "2002": {name: "v38", question: "Q10"}
+      "2012": {name: "v48", question: "Q20"}
+      "2022": {name: "v45", question: "Q19"}
+
+  # ===== Cognitive labor proxy =====
+  income_sharing:
+    category: "cognitive_labor_proxy"
+    years:
+      "2002": {name: "v29", question: "Q7"}
+      "2012": {name: "v41", question: "Q18"}
+      "2022": {name: "v38", question: "Q17"}
+  social_planning:
+    category: "cognitive_labor_proxy"
+    years:
+      "2002": {name: "v41", question: "Q13a"}
+      "2012": {name: "v49", question: "Q21"}
+      "2022": {name: "v40", question: "Q18b"}
+
+  # ===== Work-life conflict =====
+  conflict_tired_work:
+    category: "work_life_conflict"
+    years:
+      "2002": {name: "v48", question: "Q16a"}
+      "2012": {name: "v51", question: "Q23a"}
+      "2022": {name: "v46", question: "Q20a"}
+  conflict_difficult_family:
+    category: "work_life_conflict"
+    years:
+      "2002": {name: "v49", question: "Q16b"}
+      "2012": {name: "v52", question: "Q23b"}
+      "2022": {name: "v47", question: "Q20b"}
+  conflict_tired_household:
+    category: "work_life_conflict"
+    years:
+      "2002": {name: "v50", question: "Q16c"}
+      "2012": {name: "v53", question: "Q23c"}
+      "2022": {name: "v48", question: "Q20c"}
+  conflict_concentrate_work:
+    category: "work_life_conflict"
+    years:
+      "2002": {name: "v51", question: "Q16d"}
+      "2012": {name: "v54", question: "Q23d"}
+      "2022": {name: "v49", question: "Q20d"}
+
+  # ===== Demographics / controls =====
+  sex:
+    category: "demographics"
+    years:
+      "2002": {name: "v200"}
+      "2012": {name: "SEX"}
+      "2022": {name: "SEX"}
+  age:
+    category: "demographics"
+    years:
+      "2002": {name: "v201"}
+      "2012": {name: "AGE"}
+      "2022": {name: "AGE"}
+  birth_year:
+    category: "demographics"
+    years:
+      "2002": {name: null}
+      "2012": {name: "BIRTH"}
+      "2022": {name: "BIRTH"}
+  education_years:
+    category: "demographics"
+    years:
+      "2002": {name: "v204"}
+      "2012": {name: "EDUCYRS"}
+      "2022": {name: "EDUCYRS"}
+  education_level:
+    category: "demographics"
+    years:
+      "2002": {name: "v205"}
+      "2012": {name: "DEGREE"}
+      "2022": {name: "EDULEVEL"}
+  marital_status:
+    category: "demographics"
+    years:
+      "2002": {name: "v202"}
+      "2012": {name: "MARITAL"}
+      "2022": {name: "MARITAL"}
+  living_partnership:
+    category: "demographics"
+    years:
+      "2002": {name: "v203"}
+      "2012": {name: "PARTLIV"}
+      "2022": {name: "PARTLIV"}
+  household_size:
+    category: "demographics"
+    years:
+      "2002": {name: "v251"}
+      "2012": {name: "HOMPOP"}
+      "2022": {name: "HOMPOP"}
+  children_above_school:
+    category: "demographics"
+    years:
+      "2002": {name: "v66"}
+      "2012": {name: "HHCHILDR"}
+      "2022": {name: "HHCHILDR"}
+  children_below_school:
+    category: "demographics"
+    years:
+      "2002": {name: "v67"}
+      "2012": {name: "HHTODD"}
+      "2022": {name: "HHTODD"}
+
+  # ===== Employment =====
+  work_status:
+    category: "employment"
+    years:
+      "2002": {name: "v239"}
+      "2012": {name: "WORK"}
+      "2022": {name: "WORK"}
+  work_hours:
+    category: "employment"
+    years:
+      "2002": {name: "v240"}
+      "2012": {name: "WRKHRS"}
+      "2022": {name: "WRKHRS"}
+  occupation:
+    category: "employment"
+    years:
+      "2002": {name: "v241", note: "ISCO88"}
+      "2012": {name: "ISCO88"}
+      "2022": {name: "ISCO08", note: "ISCO08"}
+  main_status:
+    category: "employment"
+    years:
+      "2002": {name: null}
+      "2012": {name: "MAINSTAT"}
+      "2022": {name: "MAINSTAT"}
+
+  # ===== Partner employment =====
+  partner_work_status:
+    category: "partner_employment"
+    years:
+      "2002": {name: "v246"}
+      "2012": {name: "SPWORK"}
+      "2022": {name: "SPWORK"}
+  partner_work_hours:
+    category: "partner_employment"
+    years:
+      "2002": {name: "v71"}
+      "2012": {name: "SPWRKHRS"}
+      "2022": {name: "SPWRKHRS"}
+  partner_occupation:
+    category: "partner_employment"
+    years:
+      "2002": {name: "v247", note: "SPISCO88"}
+      "2012": {name: "SPISCO88"}
+      "2022": {name: "SPISCO08", note: "SPISCO08"}
+  partner_main_status:
+    category: "partner_employment"
+    years:
+      "2002": {name: null}
+      "2012": {name: "SPMAINST"}
+      "2022": {name: "SPMAINST"}
+  partner_education:
+    category: "partner_employment"
+    years:
+      "2002": {name: "v70"}
+      "2012": {name: "v65"}
+      "2022": {name: "v62"}
+
+  # ===== Additional attitudes =====
+  should_work_child_preschool:
+    category: "attitudes_additional"
+    years:
+      "2002": {name: "v15", question: "Q3b"}
+      "2012": {name: "v12", question: "Q3a"}
+      "2022": {name: "v9", question: "Q3a"}
+  should_work_child_school:
+    category: "attitudes_additional"
+    years:
+      "2002": {name: "v16", question: "Q3c"}
+      "2012": {name: "v13", question: "Q3b"}
+      "2022": {name: "v10", question: "Q3b"}
+  happiness:
+    category: "attitudes_additional"
+    years:
+      "2002": {name: "v52"}
+      "2012": {name: "v55"}
+      "2022": {name: "v56"}
+
+  # ===== Weights =====
+  weight:
+    category: "weights"
+    years:
+      "2002": {name: "v361"}
+      "2012": {name: "WEIGHT"}
+      "2022": {name: "WEIGHT_COM"}
+
