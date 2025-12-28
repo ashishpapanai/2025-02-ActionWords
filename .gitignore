@@ -1,4 +1,4 @@
-*.dta
+# *.dta
 *.sav
 *.txt
 *.pdf
