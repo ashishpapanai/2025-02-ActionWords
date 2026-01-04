@@ -349,7 +349,7 @@ def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
         description="Export GESIS variable questions to JSON.",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
-    parser.add_argument("study_id", help="GESIS study id, e.g. ZA10000")
+    parser.add_argument("--study_id", help="GESIS study id, e.g. ZA10000")
     parser.add_argument(
         "--output",
         "-o",
