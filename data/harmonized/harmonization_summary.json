@@ -1,0 +1,22 @@
+{
+  "total_records": 142837,
+  "records_by_year": {
+    "2012": 50437,
+    "2002": 46638,
+    "2022": 45762
+  },
+  "variables_available": 50,
+  "missing_variables_by_year": {
+    "2002": {
+      "hh_family_hours_respondent": "100% missing (variable not in this year)",
+      "hh_family_hours_partner": "100% missing (variable not in this year)",
+      "birth_year": "100% missing (variable not in this year)",
+      "main_status": "100% missing (variable not in this year)",
+      "partner_main_status": "100% missing (variable not in this year)"
+    },
+    "2012": {},
+    "2022": {
+      "task_small_repairs": "100% missing (variable not in this year)"
+    }
+  }
+}
