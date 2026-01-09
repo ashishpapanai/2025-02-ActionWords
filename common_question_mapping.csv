@@ -42,7 +42,7 @@ Living in steady partnership,R: Steady life-partner (COHAB),Living in steady par
 Legal partnership status,R: Marital status (MARITAL),Legal partnership status,Legal partnership status,V202,MARITAL,MARITAL,1,marital
 How many persons in household,How many persons in household (HOMPOP),How many persons in household,How many persons in household,V251,HOMPOP,HOMPOP,1,HOMPOP
 Hours worked weekly,R: Hours worked weekly (WRKHRS),Hours worked weekly,Hours worked weekly,V240,WRKHRS,WRKHRS,1,wrk_hrs
-Highest completed degree of education: Categories for international comparison,R: Education II-highest education level (DEGREE),Highest completed degree of education: Categories for international comparison,ISCED 2011 simplified: highest completed degree of education,V205,DEGREE,EDULEVEL,1,highest_education
+Highest completed degree of education: Categories for international comparison,R: Education II-highest education level (DEGREE),Highest completed degree of education: Categories for international comparison,ISCED 2011 simplified: highest completed degree of education,V205,DEGREE,EDULEVEL,1,educ_4_label
 Country/ Sample ISO 3166 Code (see V4 for codes for whole nation states),Country/ Sample (ISO 3166),Country/ Sample ISO 3166 Code (see V4 for codes for whole nation states),Country/ Sample ISO 3166 code (see country for codes for whole nation states),COUNTRY,V3,c_sample,0.992,COUNTRY
 Age of respondent,R: Age (AGE),Age of respondent,Age of respondent,V201,AGE,AGE,1,age
 Respondent ID,Respondent Number,ID Number of Respondent,ID Number of Respondent,v3,CASEID,CASEID,,CASEID
