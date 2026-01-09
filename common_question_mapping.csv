@@ -1,0 +1,48 @@
+question,question_02,question_12,question_22,var_02,var_12,var_22,score,COMMON_VAR
+Place of living: urban - rural,Type of community: urban-rural self-ass (URBRURAL),Place of living: urban - rural,Place of living: urban - rural,V358,URBRURAL,URBRURAL,1,urban_rural
+Top-Bottom self-placement,R:Top Bottom self-placement 10 pt scale (TOPBOT),Top-Bottom self-placement,Top-Bottom self-placement,V291,TOPBOT,TOPBOT,1,TOPBOT
+"Spouse, partner: main status",S-P: Current employment status (SPWRKST),"Spouse, partner: main status","Spouse, partner: main status",V246,SPMAINST,SPMAINST,1,spouse_work_status
+"Spouse, partner: hours worked weekly",Q27 Spouse: hours worked weekly,"Spouse, partner: hours worked weekly","Spouse, partner: hours worked weekly",V71,SPWRKHRS,SPWRKHRS,1,SPWRKHRS
+SEX,R: Sex (SEX),Sex of Respondent,Sex of Respondent,V200,SEX,SEX,1,sex
+Sample Prefix ISO 3166 Code - alphanumeric,Sample Prefix ISO 3166 Code - alphanumeric,Country Prefix ISO 3166 Code - alphanumeric,Country/ Sample Prefix ISO 3166 code - alphanumeric,C_ALPHAN,C_ALPHAN,c_alphan,0.938,C_ALPHAN
+Q4e Couple livg together without marriage,Q4e Couple livg together without marriage,Q4c Marriage: Couple living together without marriage ok,Q4d Couple living together without marriage ok,V22,V16,v14,0.944,LIVWOMAR
+Q3c Shld women work:youngest kid at school,Q3c Shld women work:youngest kid at school,Q3b Should women work: Youngest kid at school,Q3b Should women work: youngest kid at school,V16,V13,v10,0.944,WWYKS
+Q3b Shld women work:child under school age,Q3b Shld women work:child under school age,Q3a Should women work: Child under school age,Q3a Should women work: child under school age,V15,V12,v9,0.948,WWYKUS
+"Q32 Spouse, partner degree: Highest completed degree of education - cat for international comparison",Q26 Spouse degree: highest qualification,"Q32 Spouse, partner degree: Highest completed degree of education - cat for international comparison",ISCED 2011 simplified: highest completed degree of education of spouse/ partner,V70,V65,SPEDULEV,1,SP_DEGREE
+Q2d Men should do larger share of childcare,Q2d Men should do larger share of childcare,NA,Q2b Mother or father better suited to look after children,V13,NA,v8,1,MOMORFAF
+"Q2b Men's job earn money, women's job look after home","Q2b Men's job is work,women's job household","Q2b Men's job earn money, women's job look after home","Q1f Men's job earn money, women's job look after home",V11,V11,v6,0.965,MEWH
+"Q24c Number of people in hh: kids up to 5,6","Q24c Number of people in hh: kids up to 5,6",How many toddlers in household: children up to [school age -1] years,How many children below school age in household,V67,HHTODD,HHTODD,1,HHTODD
+"Q24b How many people in hh:kids 6,7 - 17 yrs","Q24b How many people in hh:kids 6,7 - 17 yrs",How many children in household: children between [school age] and 17 years of age,How many children above school entry age in household,V66,HHCHILDR,HHCHILDR,1,HHCHILDR
+Q24a How many people in hh: adults 18 yrs +,Q24a How many people in hh: adults 18 yrs +,NA,How many adults in household,V65,NA,HHADULT,1,HHADULT
+Q23b Difficult to fulfill family responsibility,Q16b Difficult to fulfil fam.responsibility,Q23b Difficult to fulfill family responsibility,Q20b Difficult to fulfill family responsibilities,V49,V52,V47,1,FAM_DIF
+Q22 Who has the higher income,Q14 Who has the higher income?,Q22 Who has the higher income,NA,V43,V50,NA,1,code_higher_income
+Q20 Sharing of household work between partners,Q10 Sharing of hh work between the partners,Q20 Sharing of household work between partners,Q19 Sharing of household work between partners,V38,V48,v45,0.963,SHARE_HH
+Q1e Working woman: Being housewife is as fulfilling as working for pay,Q1e Household satisfies as much as paid job,Q1e Working woman: Being housewife is as fulfilling as working for pay,Q1e Being housewife is as fulfilling as working for pay,V8,V9,v5,0.964,HW_FULFIL
+Q1d What women really want is home & kids,Q1d What women really want is home & kids,Q1d Working woman: What women really want is home and kids,Q1d What women really want is home and kids,V7,V8,v4,0.957,WO_WANT
+Q1c Workg woman: family life suffers,Q1c Workg woman: family life suffers,Q1c Working woman: Family life suffers when woman has full-time job,Q1c Family life suffers when woman has full-time job,V6,V7,v3,0.931,WW_FAM_SUFFER
+Q1b Workg mom: pre school child suffers,Q1b Workg mom: pre school child suffers,Q1b Working mom: Preschool child is likely to suffer,Q1b Pre-school child is likely to suffer if mother works,V5,V6,v2,0.93,WW_CHILD_SUFFER
+Q1a Working mom: warm relationship with children as a not working mom,Q1a Workg mom: warm relation child ok,Q1a Working mom: warm relationship with children as a not working mom,Q1a Working mom can establish as warm relationship as a not working mom,V4,V5,v1,0.958,WW_WARM
+Q19f Division of household work: Preparing meals,Q8f Division of hh work: preparg the meal,Q19f Division of household work: Preparing meals,Q18f Division of household work: preparing meals,V35,V47,v44,0.968,DIV_HH_COOK
+Q19e Division of household work: Household cleaning,Q8e Division of hh work: hh cleaning,Q19e Division of household work: Household cleaning,Q18e Division of household work: household cleaning,V34,V46,v43,0.973,DIV_HH_CLEAN
+Q19d Division of household work: Shops for groceries,Q8d Division of hh work:shops f groceries,Q19d Division of household work: Shops for groceries,Q18d Division of household work: shops for groceries,V33,V45,v42,0.971,DIV_HH_GROC
+Q19c Division of household work: Care for sick family members,Q8c Div. hh work:care f sick fam.members,Q19c Division of household work: Care for sick family members,Q18c Division of household work: care for sick family members,V32,V44,v41,0.983,DIV_HH_CARE
+Q19a Division of household work: Doing the laundry,Q8a Division of hh work: doing the laundry,Q19a Division of household work: Doing the laundry,Q18a Division of household work: doing the laundry,V30,V42,v39,0.971,DIV_HH_LAUND
+Q18 Sharing of income between partners,Q7 Organizing income in partnership,Q18 Sharing of income between partners,Q17 Sharing of income between partners,V29,V41,v38,0.961,code_income_control
+"Q17b How many hours spouse, partner spends on family members",NA,"Q17b How many hours spouse, partner spends on family members","Q16b How many hrs spouse, partner spends on family members",NA,V40,v37,0.947,SP_HH_FAM
+"Q17a How many hours spouse, partner works on household","Q9b How many hrs spouse,partner works on hh","Q17a How many hours spouse, partner works on household","Q16a How many hours spouse, partner works on household",V37,V39,v36,0.977,SP_HH
+Q17 Life in general: how happy on the whole,Q17 Life in general: how happy on the whole,Q24 Life in general: How happy on the whole,Q26 Life in general: how happy on the whole,V52,V55,v56,0.919,LIFE_HAP
+Q16d Difficult to concentrate at work,Q16d Difficult to concentrate at work,Q23d Difficult to concentrate at work,Q20d Difficult to concentrate at work,V51,V54,v49,0.921,DIFF_CONC_WORK
+Q16c Too tired from hhwork to function i job,Q16c Too tired from hhwork to function i job,Q23c Too tired from hh work to function in job,Q20c Too tired from household work to function in job,V50,V53,V48,0.926,HH_TIRED
+Q16b How many hours spend on family members,NA,Q16b How many hours spend on family members,Q15b How many hours spend on family members,NA,V38,v35,0.978,HH_FAM
+Q16a Too tired from work to do duties at home,Q16a Too tired from work to do duties at home,Q23a Too tired from work to do duties at home,Q20a Too tired from work to do duties at home,V48,V51,v46,0.91,WORK_TIRED
+Q16a How many hours spend on household work,Q9a How many hours do you spend on hh work,Q16a How many hours spend on household work,Q15a How many hours spend on household work,V36,V37,v34,0.976,hh_wrk_hrs
+Q13a Final say: choosing weekend activities,Q13a Final say: choosing weekend activities,Q21 Final say: Choosing weekend activities,Q18b Division of household work: plan social/family activities,V41,V49,V40,0.98,HH_WEEKEND
+Main status,R: Current employment status (WRKST),Main status,Main status,V239,MAINSTAT,MAINSTAT,1,work_status
+Living in steady partnership,R: Steady life-partner (COHAB),Living in steady partnership,Living in steady partnership,V203,PARTLIV,PARTLIV,1,COHAB
+Legal partnership status,R: Marital status (MARITAL),Legal partnership status,Legal partnership status,V202,MARITAL,MARITAL,1,marital
+How many persons in household,How many persons in household (HOMPOP),How many persons in household,How many persons in household,V251,HOMPOP,HOMPOP,1,HOMPOP
+Hours worked weekly,R: Hours worked weekly (WRKHRS),Hours worked weekly,Hours worked weekly,V240,WRKHRS,WRKHRS,1,wrk_hrs
+Highest completed degree of education: Categories for international comparison,R: Education II-highest education level (DEGREE),Highest completed degree of education: Categories for international comparison,ISCED 2011 simplified: highest completed degree of education,V205,DEGREE,EDULEVEL,1,highest_education
+Country/ Sample ISO 3166 Code (see V4 for codes for whole nation states),Country/ Sample (ISO 3166),Country/ Sample ISO 3166 Code (see V4 for codes for whole nation states),Country/ Sample ISO 3166 code (see country for codes for whole nation states),COUNTRY,V3,c_sample,0.992,COUNTRY
+Age of respondent,R: Age (AGE),Age of respondent,Age of respondent,V201,AGE,AGE,1,age
+Respondent ID,Respondent Number,ID Number of Respondent,ID Number of Respondent,v3,CASEID,CASEID,,CASEID
