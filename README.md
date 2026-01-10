@@ -40,5 +40,64 @@ The data covers five main areas: attitudes, family labor, social support, financ
 * **Employment Details:** **Hours worked weekly**, occupation (ISCO), supervisory role, and current status for **both the respondent and partner**.
 * **Upbringing (Optional):** Which parent was more involved in the respondent's upbringing and their children's upbringing.
 
+---
+
+## Running the Analysis
+
+### Interactive Streamlit Dashboard
+
+The project includes an interactive Streamlit dashboard for exploring the data and visualizations.
+
+**To run the Streamlit app:**
+
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd /path/to/ML4102
+   ```
+
+3. **Run the Streamlit app:**
+   ```bash
+   streamlit run streamlit_app.py
+   ```
+
+4. **Access the dashboard:**
+   - The app will automatically open in your default web browser
+   - If it doesn't open automatically, navigate to: `http://localhost:8501`
+   - The dashboard includes:
+     - **Data Overview**: Summary statistics and missing data analysis
+     - **Visualizations**: Interactive scatter plots and time trends
+     - **Analysis**: Correlation heatmaps
+     - **Insights**: Key findings and interpretations
+
+**Features:**
+- Interactive filters for year, variable, gender, and urban/rural
+- Temporal trajectories showing changes from 2002 → 2012 → 2022
+- Consistent country selection (15 most important countries)
+- Detailed insights and interpretations for each plot
+
+### Jupyter Notebook Analysis
+
+The main analysis is in `notebooks/household_analysis/eda.ipynb`:
+
+1. **Open the notebook:**
+   ```bash
+   jupyter notebook notebooks/household_analysis/eda.ipynb
+   ```
+
+2. **Run all cells** to generate:
+   - Comprehensive visualizations
+   - Statistical analyses
+   - Enhanced country-level insights
+   - All plots saved as HTML (interactive) and PNG (static)
+
+**Output:**
+- Interactive plots saved to `interactive_figures/`
+- Static plots saved to `static_figures/`
+- Analysis report: `analysis_report.md`
 
 ---
