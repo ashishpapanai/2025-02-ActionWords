@@ -1,0 +1,57 @@
+Variable,Variable_Code,Year,Correlation,P_Value,Significant,Method,N,Category
+How many persons in household,HOMPOP,2002,-0.053272799347678174,3.035928666747497e-30,Yes,Pearson,45954,Composition
+How many persons in household,HOMPOP,2012,-0.09361299227476462,1.7126678039919535e-109,Yes,Pearson,56152,Composition
+How many persons in household,HOMPOP,2022,-0.14702734605322043,2.8719714292666447e-214,Yes,Pearson,44665,Composition
+Q24a How many people in hh: adults 18 yrs +,HHADULT,2002,-0.06220091397273531,1.259801732912852e-37,Yes,Pearson,42403,Composition
+Q24a How many people in hh: adults 18 yrs +,HHADULT,2022,-0.12265964167481391,2.5917530804233474e-147,Yes,Pearson,44073,Composition
+"Q24b How many people in hh:kids 6,7 - 17 yrs",HHCHILDR,2002,-0.08504796733667191,1.0358612042543038e-23,Yes,Pearson,13883,Composition
+"Q24b How many people in hh:kids 6,7 - 17 yrs",HHCHILDR,2012,-0.029978598688943855,1.2017907064560571e-12,Yes,Pearson,56150,Composition
+"Q24b How many people in hh:kids 6,7 - 17 yrs",HHCHILDR,2022,-0.07759110402053684,7.851349217391864e-59,Yes,Pearson,43317,Composition
+"Q24c Number of people in hh: kids up to 5,6",HHTODD,2002,-0.07208106230165467,9.246112951026655e-10,Yes,Pearson,7197,Composition
+"Q24c Number of people in hh: kids up to 5,6",HHTODD,2012,-0.07464940380676544,3.58494960752483e-70,Yes,Pearson,56122,Composition
+"Q24c Number of people in hh: kids up to 5,6",HHTODD,2022,-0.0869604488778428,1.424887089154362e-70,Yes,Pearson,41558,Composition
+Q16a How many hours spend on household work,hh_wrk_hrs,2002,-0.14385574747303426,3.33755149124542e-138,Yes,Pearson,29948,Work
+Q16a How many hours spend on household work,hh_wrk_hrs,2012,-0.1346789094237836,1.0583040916043592e-227,Yes,Pearson,56701,Work
+Q16a How many hours spend on household work,hh_wrk_hrs,2022,-0.1729032525314487,3.1576484142024763e-290,Yes,Pearson,43676,Work
+Q16b How many hours spend on family members,HH_FAM,2012,-0.016146227289846847,0.00016908356644149524,Yes,Pearson,54260,Work
+Q16b How many hours spend on family members,HH_FAM,2022,-0.05310809224219319,1.548248830929928e-27,Yes,Pearson,41860,Work
+"Q17a How many hours spouse, partner works on household",SP_HH,2002,-0.19555832147738128,1.0306362757641986e-240,Yes,Pearson,28154,Work
+"Q17a How many hours spouse, partner works on household",SP_HH,2012,-0.17757493883520192,6.37467739017901e-248,Yes,Pearson,35298,Work
+"Q17a How many hours spouse, partner works on household",SP_HH,2022,-0.1979479086349603,3.4117123993494956e-228,Yes,Pearson,26024,Work
+"Q17b How many hours spouse, partner spends on family members",SP_HH_FAM,2012,-0.016076046358463103,0.0029305141793620954,Yes,Pearson,34243,Work
+"Q17b How many hours spouse, partner spends on family members",SP_HH_FAM,2022,-0.0758413443330194,1.8517391466531772e-33,Yes,Pearson,25190,Work
+Q19a Division of household work: Doing the laundry,DIV_HH_LAUND,2002,0.050393288312244454,2.2262756015732046e-18,Yes,Spearman,30080,Division
+Q19a Division of household work: Doing the laundry,DIV_HH_LAUND,2012,0.016963556170148737,0.0010793224495792653,Yes,Spearman,37133,Division
+Q19a Division of household work: Doing the laundry,DIV_HH_LAUND,2022,0.0372998229934203,7.455616673421821e-10,Yes,Spearman,27223,Division
+Q19c Division of household work: Care for sick family members,DIV_HH_CARE,2002,-0.03752820176746531,4.0486388940318344e-10,Yes,Spearman,27738,Division
+Q19c Division of household work: Care for sick family members,DIV_HH_CARE,2012,-0.047500191511574114,1.8641958065020586e-17,Yes,Spearman,32003,Division
+Q19c Division of household work: Care for sick family members,DIV_HH_CARE,2022,-0.07377873193580615,1.698290217292949e-29,Yes,Spearman,23303,Division
+Q19d Division of household work: Shops for groceries,DIV_HH_GROC,2002,-0.008801375947959074,0.1272037590254279,No,Spearman,30032,Division
+Q19d Division of household work: Shops for groceries,DIV_HH_GROC,2012,-0.02370879781033692,4.7959255575662716e-06,Yes,Spearman,37204,Division
+Q19d Division of household work: Shops for groceries,DIV_HH_GROC,2022,0.0032446422337839456,0.5925828383857192,No,Spearman,27200,Division
+Q19e Division of household work: Household cleaning,DIV_HH_CLEAN,2002,0.011238112043717836,0.051488393877207383,No,Spearman,30028,Division
+Q19e Division of household work: Household cleaning,DIV_HH_CLEAN,2012,0.007791518182361655,0.1330401373378102,No,Spearman,37174,Division
+Q19e Division of household work: Household cleaning,DIV_HH_CLEAN,2022,-0.030747274172051184,3.9572269118354126e-07,Yes,Spearman,27190,Division
+Q19f Division of household work: Preparing meals,DIV_HH_COOK,2002,0.02797305244851256,1.2400316475765155e-06,Yes,Spearman,30041,Division
+Q19f Division of household work: Preparing meals,DIV_HH_COOK,2012,0.025726100878576904,6.922489772370116e-07,Yes,Spearman,37215,Division
+Q19f Division of household work: Preparing meals,DIV_HH_COOK,2022,0.031814096800186625,1.5480736146999016e-07,Yes,Spearman,27187,Division
+Q23b Difficult to fulfill family responsibility,FAM_DIF,2002,-0.08942838227598227,1.8629353953654305e-49,Yes,Spearman,27222,Work-Life
+Q23b Difficult to fulfill family responsibility,FAM_DIF,2012,-0.07590197431156115,4.5861353953113755e-45,Yes,Spearman,34347,Work-Life
+Q23b Difficult to fulfill family responsibility,FAM_DIF,2022,-0.073398520900084,6.133496563449668e-37,Yes,Spearman,29847,Work-Life
+Q16a Too tired from work to do duties at home,WORK_TIRED,2002,0.0009757141414131167,0.8704507840611466,No,Spearman,27940,Work-Life
+Q16a Too tired from work to do duties at home,WORK_TIRED,2012,0.0018061156120288057,0.735619893598038,No,Spearman,34954,Work-Life
+Q16a Too tired from work to do duties at home,WORK_TIRED,2022,0.027203097689610066,1.9844102302385957e-06,Yes,Spearman,30545,Work-Life
+Q16c Too tired from hhwork to function i job,HH_TIRED,2002,-0.15360210478808753,1.346064529509956e-144,Yes,Spearman,27461,Work-Life
+Q16c Too tired from hhwork to function i job,HH_TIRED,2012,-0.17461960968761392,2.7272485682996636e-234,Yes,Spearman,34497,Work-Life
+Q16c Too tired from hhwork to function i job,HH_TIRED,2022,-0.19104905031270794,1.9081591963124727e-244,Yes,Spearman,29987,Work-Life
+Q16d Difficult to concentrate at work,DIFF_CONC_WORK,2002,-0.10135058986407294,3.5241253172117925e-63,Yes,Spearman,27267,Work-Life
+Q16d Difficult to concentrate at work,DIFF_CONC_WORK,2012,-0.08989719811083012,1.6837385412839374e-62,Yes,Spearman,34311,Work-Life
+Q16d Difficult to concentrate at work,DIFF_CONC_WORK,2022,-0.10269235689864951,1.1058902584374743e-70,Yes,Spearman,29804,Work-Life
+Q20 Sharing of household work between partners,SHARE_HH,2002,-0.06378688802991986,8.203112950047238e-28,Yes,Spearman,29309,Other
+Q20 Sharing of household work between partners,SHARE_HH,2012,-0.0344562349378415,4.7799138978366706e-11,Yes,Spearman,36423,Other
+Q20 Sharing of household work between partners,SHARE_HH,2022,-0.0652947446420945,9.105835277263104e-27,Yes,Spearman,26851,Other
+Q13a Final say: choosing weekend activities,HH_WEEKEND,2002,-0.08299215142772827,3.1650825452225124e-46,Yes,Spearman,29483,Other
+Q13a Final say: choosing weekend activities,HH_WEEKEND,2012,-0.13057910957780486,7.8280680722501955e-137,Yes,Spearman,36048,Other
+Q13a Final say: choosing weekend activities,HH_WEEKEND,2022,0.014573665310460594,0.016946146126453517,Yes,Spearman,26846,Other
+Q2d Men should do larger share of childcare,MOMORFAF,2002,0.020944318578066046,1.222950200219745e-05,Yes,Spearman,43596,Other
+Q2d Men should do larger share of childcare,MOMORFAF,2022,-0.26357562121002653,0.0,Yes,Spearman,44662,Other
