@@ -1,9 +1,1 @@
-*.dta
-*.sav
-*.txt
-*.pdf
-*.por
-*.zip
-**/__pycache__
-**/.DS_Store
-notebooks/plots
+old/

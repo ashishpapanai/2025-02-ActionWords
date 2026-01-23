@@ -1,0 +1,677 @@
+question,question_02,question_12,question_22,2002,2012,2022,score
+GESIS Study Number,GESIS Data Archive Study Number,GESIS Data Archive Study Number,GESIS Study Number,V1,V1,studyno,0.823
+GESIS Archive Version,GESIS Archive Version,GESIS Archive Version,GESIS Archive version,V2,V2,version,1.0
+Digital Object Identifier,NA,Digital Object Identifier,Digital Object Identifier,NA,DOI,doi,1.0
+Country/ Sample ISO 3166 Code (see V4 for codes for whole nation states),NA,Country/ Sample ISO 3166 Code (see V4 for codes for whole nation states),Country/ Sample ISO 3166 code (see country for codes for whole nation states),NA,V3,c_sample,0.937
+Country ISO 3166 Code (see V3 for codes for the sample),NA,Country ISO 3166 Code (see V3 for codes for the sample),Country ISO 3166 code (see c_sample for codes for the sample),NA,V4,country,0.911
+Sample Prefix ISO 3166 Code - alphanumeric,Sample Prefix ISO 3166 Code - alphanumeric,Country Prefix ISO 3166 Code - alphanumeric,Country/ Sample Prefix ISO 3166 code - alphanumeric,C_ALPHAN,C_ALPHAN,c_alphan,0.89
+Q1a Working mom can establish as warm relationship as a not working mom,NA,Q1a Working mom: warm relationship with children as a not working mom,Q1a Working mom can establish as warm relationship as a not working mom,NA,V5,v1,0.777
+Q1b Workg mom: pre school child suffers,Q1b Workg mom: pre school child suffers,Q1b Working mom: Preschool child is likely to suffer,Q1b Pre-school child is likely to suffer if mother works,V5,V6,v2,0.711
+Q1c Family life suffers when woman has full-time job,NA,Q1c Working woman: Family life suffers when woman has full-time job,Q1c Family life suffers when woman has full-time job,NA,V7,v3,0.881
+Q1d What women really want is home and kids,Q1d What women really want is home & kids,Q1d Working woman: What women really want is home and kids,Q1d What women really want is home and kids,V7,V8,v4,0.875
+Q1e Being housewife is as fulfilling as working for pay,NA,Q1e Working woman: Being housewife is as fulfilling as working for pay,Q1e Being housewife is as fulfilling as working for pay,NA,V9,v5,0.887
+Q2a Both should contribute to hh income,Q2a Both should contribute to hh income,Q2a Both should contribute to household income,NA,V10,V10,NA,0.918
+"Q2b Men's job earn money, women's job look after home",NA,"Q2b Men's job earn money, women's job look after home","Q1f Men's job earn money, women's job look after home",NA,V11,v6,0.962
+Q3b Shld women work:child under school age,Q3b Shld women work:child under school age,Q3a Should women work: Child under school age,Q3a Should women work: child under school age,V15,V12,v9,0.969
+Q3c Shld women work:youngest kid at school,Q3c Shld women work:youngest kid at school,Q3b Should women work: Youngest kid at school,Q3b Should women work: youngest kid at school,V16,V13,v10,0.969
+Q4a Marriage: married people gen. happier,Q4a Marriage: married people gen. happier,Q4a Marriage: Married people generally happier,NA,V18,V14,NA,0.929
+Q4c Marriage if people want kids,"Q4c Marriage better,if people want kids","Q4b Marriage: Better, if people want kids",Q4c Marriage if people want kids,V20,V15,v13,0.916
+Q4e Couple livg together without marriage,Q4e Couple livg together without marriage,Q4c Marriage: Couple living together without marriage ok,Q4d Couple living together without marriage ok,V22,V16,v14,0.888
+Q4g Divorce best solution w marr. problems,Q4g Divorce best solution w marr. problems,Q4d Marriage: Divorce best solution with marriage problems,NA,V24,V17,NA,0.837
+Q5a Single parent can raise child as well,Q4d Single parent can raise child as well,Q5a Single parent can raise child as well,Q5a Single mother can raise child as well,V21,V18,v15,0.886
+Q5b Same sex female couple can raise child as well,NA,Q5b Same sex female couple can raise child as well,Q5c Same sex female couple can raise child as well,NA,V19,v17,0.98
+Q5c Same sex male couple can raise child as well,NA,Q5c Same sex male couple can raise child as well,Q5d Same sex male couple can raise child as well,NA,V20,v18,0.979
+Q6 Ideal number of children for a family,NA,Q6 Ideal number of children for a family,Q6 Ideal number of children for a family,NA,V21,v19,1.0
+Q5a Children: watching up is greatest joy,Q5a Children: watching up is greatest joy,Q7a Children: Watching grow up is greatest joy,NA,V25,V22,NA,0.918
+Q7b Children: Interfere too much with parents freedom,NA,Q7b Children: Interfere too much with parents freedom,Q4a Children interfere too much with parents' freedom,NA,V23,v11,0.962
+Q7c Children: Financial burden on their parents,NA,Q7c Children: Financial burden on their parents,NA,NA,V24,NA,1.0
+Q7d Children: Restrict career chances of one or both parents,NA,Q7d Children: Restrict career chances of one or both parents,NA,NA,V25,NA,1.0
+Q4b Children increase social standing in society,NA,Q7e Children: Increase social standing in society,Q4b Children increase social standing in society,NA,V26,v12,0.958
+Q7f Children: Adult children are important source of help for elderly parents,NA,Q7f Children: Adult children are important source of help for elderly parents,NA,NA,V27,NA,1.0
+"Q8 Paid leave: No/ Yes, how long should paid leave be available",NA,"Q8 Paid leave: No/ Yes, how long should paid leave be available","Q8 Paid leave: no/ yes, how long should paid leave be available",NA,V28,v26,1.0
+Q9 Paid leave: Who should pay,NA,Q9 Paid leave: Who should pay,NA,NA,V29,NA,1.0
+Q9 Paid leave: how to divide between parents,NA,Q10 Paid leave: How to divide between parents,Q9 Paid leave: how to divide between parents,NA,V30,v27,0.966
+Q11a Child under school age: Best parental childcare option,NA,Q11a Child under school age: Best parental childcare option,Q10a Child under school age: best parental childcare option,NA,V31,v28,0.983
+Q11b Child under school age: Least desirable parental childcare,NA,Q11b Child under school age: Least desirable parental childcare,Q10b Child under school age: least desirable parental childcare,NA,V32,v29,0.984
+Q12 Child under school age: Provider of childcare,NA,Q12 Child under school age: Provider of childcare,Q11 Child under school age: provider of childcare,NA,V33,v30,0.979
+Q13 Child under school age: Covering childcare costs,NA,Q13 Child under school age: Covering childcare costs,Q12 Child under school age: covering childcare costs,NA,V34,v31,0.98
+Q14 Elderly people: Provider of domestic help,NA,Q14 Elderly people: Provider of domestic help,Q13 Elderly people: provider of domestic help,NA,V35,v32,0.977
+Q15 Elderly people: Covering domestic help costs,NA,Q15 Elderly people: Covering domestic help costs,Q14 Elderly people: covering domestic help costs,NA,V36,v33,0.979
+Q9a How many hours do you spend on hh work,Q9a How many hours do you spend on hh work,Q16a How many hours spend on household work,Q15a How many hours spend on household work,V36,V37,v34,0.859
+Q16b How many hours spend on family members,NA,Q16b How many hours spend on family members,Q15b How many hours spend on family members,NA,V38,v35,0.977
+"Q9b How many hrs spouse,partner works on hh","Q9b How many hrs spouse,partner works on hh","Q17a How many hours spouse, partner works on household","Q16a How many hours spouse, partner works on household",V37,V39,v36,0.896
+"Q16b How many hrs spouse, partner spends on family members",NA,"Q17b How many hours spouse, partner spends on family members","Q16b How many hrs spouse, partner spends on family members",NA,V40,v37,0.966
+Q18 Sharing of income between partners,Q10 Sharing of hh work between the partners,Q18 Sharing of income between partners,Q17 Sharing of income between partners,V38,V41,v38,0.851
+Q8a Division of hh work: doing the laundry,Q8a Division of hh work: doing the laundry,Q19a Division of household work: Doing the laundry,Q18a Division of household work: doing the laundry,V30,V42,v39,0.927
+Q8b Division of hh work: small repairs,Q8b Division of hh work: small repairs,Q19b Division of household work: Small repairs,Q18f Division of household work: preparing meals,V31,V43,v44,0.784
+Q8c Div. hh work:care f sick fam.members,Q8c Div. hh work:care f sick fam.members,Q19c Division of household work: Care for sick family members,Q18c Division of household work: care for sick family members,V32,V44,v41,0.846
+Q8d Division of hh work:shops f groceries,Q8d Division of hh work:shops f groceries,Q19d Division of household work: Shops for groceries,Q18d Division of household work: shops for groceries,V33,V45,v42,0.914
+Q8e Division of hh work: hh cleaning,Q8e Division of hh work: hh cleaning,Q19e Division of household work: Household cleaning,Q18e Division of household work: household cleaning,V34,V46,v43,0.868
+Q8f Division of hh work: preparg the meal,Q8f Division of hh work: preparg the meal,Q19f Division of household work: Preparing meals,NA,V35,V47,NA,0.805
+Q20 Sharing of household work between partners,NA,Q20 Sharing of household work between partners,Q19 Sharing of household work between partners,NA,V48,v45,0.957
+Q21 Final say: Choosing weekend activities,Q13a Final say: choosing weekend activities,Q21 Final say: Choosing weekend activities,NA,V41,V49,NA,0.964
+Q22 Who has the higher income,Q14 Who has the higher income?,Q22 Who has the higher income,NA,V43,V50,NA,0.931
+Q23a Too tired from work to do duties at home,Q16a Too tired from work to do duties at home,Q23a Too tired from work to do duties at home,Q20a Too tired from work to do duties at home,V48,V51,v46,0.963
+Q16b Difficult to fulfil fam.responsibility,Q16b Difficult to fulfil fam.responsibility,Q23b Difficult to fulfill family responsibility,Q20b Difficult to fulfill family responsibilities,V49,V52,v47,0.906
+Q16c Too tired from hhwork to function i job,Q16c Too tired from hhwork to function i job,Q23c Too tired from hh work to function in job,Q20c Too tired from household work to function in job,V50,V53,v48,0.903
+Q23d Difficult to concentrate at work,Q16d Difficult to concentrate at work,Q23d Difficult to concentrate at work,Q20d Difficult to concentrate at work,V51,V54,v49,0.955
+Q24 Life in general: How happy on the whole,Q17 Life in general: how happy on the whole,Q24 Life in general: How happy on the whole,Q26 Life in general: how happy on the whole,V52,V55,v56,0.96
+Q25 How satisfied with main job,Q18 How satisfied with your main job?,Q25 How satisfied with main job,NA,V53,V56,NA,0.866
+Q26 How satisfied with family life,Q19 How satisfied with your family life?,Q26 How satisfied with family life,NA,V54,V57,NA,0.877
+Q27 Health status,NA,Q27 Health status,NA,NA,V58,NA,1.0
+Q20 Mother ever workg for pay before R 14,Q20 Mother ever workg for pay before R 14,Q28 Mother ever working for pay before respondent 14,NA,V55,V59,NA,0.86
+Q29a R worked outside: Kid under school age,Q21b R worked outside: kid under school age,Q29a R worked outside: Kid under school age,NA,V57,V60,NA,0.952
+Q21c R worked outside:youngest kid at school,Q21c R worked outside:youngest kid at school,Q29b R worked outside: Youngest kid at school,NA,V58,V61,NA,0.955
+Q22b Sp. work outside: kid under school age,Q22b Sp. work outside: kid under school age,Q30a Spouse worked outside: Kid under school age,NA,V61,V62,NA,0.864
+Q22c Sp. work outside: young. kid at school,Q22c Sp. work outside: young. kid at school,Q30b Spouse worked outside: Youngest kid at school,NA,V62,V63,NA,0.831
+Q31 Who makes decisions how to raise kids,Q12 Who makes decisions how to raise kids,Q31 Who makes decisions how to raise kids,NA,V40,V64,NA,0.976
+"Q32 Spouse, partner degree: Highest completed degree of education - cat for international comparison",NA,"Q32 Spouse, partner degree: Highest completed degree of education - cat for international comparison",NA,NA,V65,NA,1.0
+"Q32a Spouse, partner degree: Highest qualification - former 5-point educational scheme",NA,"Q32a Spouse, partner degree: Highest qualification - former 5-point educational scheme",NA,NA,V65A,NA,1.0
+"Q33 Spouse, partner: Age",NA,"Q33 Spouse, partner: Age",NA,NA,V66,NA,1.0
+Q34 Duration of relationship,NA,Q34 Duration of relationship,NA,NA,V67,NA,1.0
+Sex of Respondent,NA,Sex of Respondent,Sex of Respondent,NA,SEX,SEX,1.0
+Year of birth,NA,Year of birth,Year of birth,NA,BIRTH,BIRTH,1.0
+Age of respondent,NA,Age of respondent,Age of respondent,NA,AGE,AGE,1.0
+Education I: years of schooling,R: Education I: years of schooling (EDUCYRS),Education I: years of schooling,NA,V204,EDUCYRS,NA,0.857
+Country specific highest completed degree of education: Austria,NA,Country specific highest completed degree of education: Argentina,Country specific highest completed degree of education: Austria,NA,AR_DEGR,AT_ISCD,0.937
+Country specific highest completed degree of education: Austria,NA,Country specific highest completed degree of education: Austria,Country specific highest completed degree of education: Australia,NA,AT_DEGR,AU_ISCD,0.984
+Country specific highest completed degree of education: Israel,NA,Country specific highest completed degree of education: Australia,Country specific highest completed degree of education: Israel,NA,AU_DEGR,IL_ISCD,0.944
+Country specific highest completed degree of education: Belgium,NA,Country specific highest completed degree of education: Belgium,Country specific highest completed degree of education: Bulgaria,NA,BE_DEGR,BG_ISCD,0.944
+Country specific highest completed degree of education: Hungary,NA,Country specific highest completed degree of education: Bulgaria,Country specific highest completed degree of education: Hungary,NA,BG_DEGR,HU_ISCD,0.944
+Country specific highest completed degree of education: Canada,NA,Country specific highest completed degree of education: Canada,Country specific highest completed degree of education: Iceland,NA,CA_DEGR,IS_ISCD,0.959
+Country specific highest completed degree of education: Switzerland,NA,Country specific highest completed degree of education: Switzerland,Country specific highest completed degree of education: Switzerland,NA,CH_DEGR,CH_ISCD,1.0
+Country specific highest completed degree of education: Chile,NA,Country specific highest completed degree of education: Chile,Country specific highest completed degree of education: Italy,NA,CL_DEGR,IT_ISCD,0.95
+Country specific highest completed degree of education: China,NA,Country specific highest completed degree of education: China,Country specific highest completed degree of education: India,NA,CN_DEGR,IN_ISCD,0.967
+Country specific highest completed degree of education: Czech Republic,NA,Country specific highest completed degree of education: Czech Republic,Country specific highest completed degree of education: Czech Republic,NA,CZ_DEGR,CZ_ISCD,1.0
+Country specific highest completed degree of education: Germany,NA,Country specific highest completed degree of education: Germany,Country specific highest completed degree of education: Germany,NA,DE_DEGR,DE_ISCD,1.0
+Country specific highest completed degree of education: Denmark,NA,Country specific highest completed degree of education: Denmark,Country specific highest completed degree of education: Denmark,NA,DK_DEGR,DK_ISCD,1.0
+Country specific highest completed degree of education: Spain,NA,Country specific highest completed degree of education: Spain,Country specific highest completed degree of education: Spain,NA,ES_DEGR,ES_ISCD,1.0
+Country specific highest completed degree of education: Finland,NA,Country specific highest completed degree of education: Finland,Country specific highest completed degree of education: Finland,NA,FI_DEGR,FI_ISCD,1.0
+Country specific highest completed degree of education: France,NA,Country specific highest completed degree of education: France,Country specific highest completed degree of education: France,NA,FR_DEGR,FR_ISCD,1.0
+Country specific highest completed degree of education: Croatia,NA,Country specific highest completed degree of education: Great Britain,Country specific highest completed degree of education: Croatia,NA,GB_DEGR,HR_ISCD,0.923
+Country specific highest completed degree of education: Croatia,NA,Country specific highest completed degree of education: Croatia,Country specific highest completed degree of education: Slovakia,NA,HR_DEGR,SK_ISCD,0.944
+Country specific highest completed degree of education: Norway,NA,Country specific highest completed degree of education: Hungary,Country specific highest completed degree of education: Norway,NA,HU_DEGR,NO_ISCD,0.943
+Country specific highest completed degree of education: Ireland,NA,Country specific highest completed degree of education: Ireland,Country specific highest completed degree of education: Thailand,NA,IE_DEGR,TH_ISCD,0.96
+Country specific highest completed degree of education: Israel,NA,Country specific highest completed degree of education: Israel,Country specific highest completed degree of education: Greece,NA,IL_DEGR,GR_ISCD,0.934
+Country specific highest completed degree of education: India,NA,Country specific highest completed degree of education: India,Country specific highest completed degree of education: Lithuania,NA,IN_DEGR,LT_ISCD,0.952
+Country specific highest completed degree of education: Poland,NA,Country specific highest completed degree of education: Iceland,Country specific highest completed degree of education: Poland,NA,IS_DEGR,PL_ISCD,0.959
+Country specific highest completed degree of education: Japan,NA,Country specific highest completed degree of education: Japan,Country specific highest completed degree of education: Japan,NA,JP_DEGR,JP_ISCD,1.0
+Country specific highest completed degree of education: South Africa,NA,Country specific highest completed degree of education: Korea (South),Country specific highest completed degree of education: South Africa,NA,KR_DEGR,ZA_ISCD,0.902
+Country specific highest completed degree of education: Slovenia,NA,Country specific highest completed degree of education: Lithuania,Country specific highest completed degree of education: Slovenia,NA,LT_DEGR,SI_ISCD,0.929
+Country specific highest completed degree of education: Latvia,NA,Country specific highest completed degree of education: Latvia,Country specific highest completed degree of education: Taiwan,NA,LV_DEGR,TW_ISCD,0.951
+Country specific highest completed degree of education: Mexico,NA,Country specific highest completed degree of education: Mexico,Country specific highest completed degree of education: Russia,NA,MX_DEGR,RU_ISCD,0.918
+Country specific highest completed degree of education: Netherlands,NA,Country specific highest completed degree of education: Netherlands,Country specific highest completed degree of education: Netherlands,NA,NL_DEGR,NL_ISCD,1.0
+Country specific highest completed degree of education: Norway,NA,Country specific highest completed degree of education: Norway,Country specific highest completed degree of education: Sweden,NA,NO_DEGR,SE_ISCD,0.918
+Country specific highest completed degree of education: Philippines,NA,Country specific highest completed degree of education: Philippines,Country specific highest completed degree of education: Philippines,NA,PH_DEGR,PH_ISCD,1.0
+Country specific highest completed degree of education: Poland,NA,Country specific highest completed degree of education: Poland,Country specific highest completed degree of education: New Zealand,NA,PL_DEGR,NZ_ISCD,0.929
+Country specific highest completed degree of education: Portugal,NA,Country specific highest completed degree of education: Portugal,Country specific highest completed degree of education: United States,NA,PT_DEGR,US_ISCD,0.87
+Country specific highest completed degree of education: Russia,NA,Country specific highest completed degree of education: Russia,Country specific highest completed degree of education of spouse/ partner: Russia,NA,RU_DEGR,RU_SPISCD,0.871
+Country specific highest completed degree of education: Sweden,NA,Country specific highest completed degree of education: Sweden,Country specific highest completed degree of education of spouse/ partner: Sweden,NA,SE_DEGR,SE_SPISCD,0.871
+Country specific highest completed degree of education: Slovenia,NA,Country specific highest completed degree of education: Slovenia,Country specific highest completed degree of education of spouse/ partner: Slovenia,NA,SI_DEGR,SI_SPISCD,0.875
+Country specific highest completed degree of education: Slovakia,NA,Country specific highest completed degree of education: Slovakia,Country specific highest completed degree of education of spouse/ partner: Slovakia,NA,SK_DEGR,SK_SPISCD,0.875
+Country specific highest completed degree of education: Turkey,NA,Country specific highest completed degree of education: Turkey,Country specific highest completed degree of education of spouse/ partner: Germany,NA,TR_DEGR,DE_SPISCD,0.837
+Country specific highest completed degree of education: Taiwan,NA,Country specific highest completed degree of education: Taiwan,Country specific highest completed degree of education of spouse/ partner: Taiwan,NA,TW_DEGR,TW_SPISCD,0.871
+Country specific highest completed degree of education: United States,NA,Country specific highest completed degree of education: United States,Country specific highest completed degree of education of spouse/ partner: United States,NA,US_DEGR,US_SPISCD,0.883
+Country specific highest completed degree of education: Venezuela,NA,Country specific highest completed degree of education: Venezuela,Country specific highest completed degree of education of spouse/ partner: Iceland,NA,VE_DEGR,IS_SPISCD,0.847
+Country specific highest completed degree of education: South Africa,NA,Country specific highest completed degree of education: South Africa,Country specific highest completed degree of education of spouse/ partner: South Africa,NA,ZA_DEGR,ZA_SPISCD,0.882
+Highest completed degree of education: Categories for international comparison,NA,Highest completed degree of education: Categories for international comparison,NA,NA,DEGREE,NA,1.0
+"Currently, formerly, or never in paid work",NA,"Currently, formerly, or never in paid work","Currently, formerly, or never in paid work",NA,WORK,WORK,1.0
+Hours worked weekly,R: Hours worked weekly (WRKHRS),Hours worked weekly,Hours worked weekly,V240,WRKHRS,WRKHRS,0.872
+Employment relationship,NA,Employment relationship,Employment relationship,NA,EMPREL,EMPREL,1.0
+Self-employed: how many employees,NA,Self-employed: how many employees,NA,NA,NEMPLOY,NA,1.0
+Supervise other employees,NA,Supervise other employees,Supervise other employees,NA,WRKSUP,WRKSUP,1.0
+Number of other employees supervised,NA,Number of other employees supervised,Number of other employees supervised,NA,NSUP,NSUP,1.0
+"Type of organisation, for-profit/non-profit",NA,"Type of organisation, for-profit/ non-profit","Type of organisation, for-profit/non-profit",NA,TYPORG1,TYPORG1,1.0
+"Type of organisation, public/private",NA,"Type of organisation, public/ private","Type of organisation, public/private",NA,TYPORG2,TYPORG2,1.0
+Occupation ISCO 2008,NA,Occupation ISCO/ ILO 1988,Occupation ISCO 2008,NA,ISCO88,ISCO08,0.773
+Main status,NA,Main status,Main status,NA,MAINSTAT,MAINSTAT,1.0
+Living in steady partnership,NA,Living in steady partnership,Living in steady partnership,NA,PARTLIV,PARTLIV,1.0
+"Spouse, partner: currently, formerly or never in paid work",NA,"Spouse, partner: currently, formerly or never in paid work","Spouse, partner: currently, formerly or never in paid work",NA,SPWORK,SPWORK,1.0
+Q27 Spouse: hours worked weekly,Q27 Spouse: hours worked weekly,"Spouse, partner: hours worked weekly","Spouse, partner: hours worked weekly",V71,SPWRKHRS,SPWRKHRS,0.875
+"Spouse, partner: employment relationship",NA,"Spouse, partner: employment relationship","Spouse, partner: employment relationship",NA,SPEMPREL,SPEMPREL,1.0
+"Spouse, partner: supervise other employees",NA,"Spouse, partner: supervise other employees","Spouse, partner: supervise other employees",NA,SPWRKSUP,SPWRKSUP,1.0
+"Spouse, partner: occupation ISCO 2008",NA,"Spouse, partner: occupation ISCO/ ILO 1988","Spouse, partner: occupation ISCO 2008",NA,SPISCO88,SPISCO08,0.865
+"Spouse, partner: main status",NA,"Spouse, partner: main status","Spouse, partner: main status",NA,SPMAINST,SPMAINST,1.0
+Trade union membership,R: Trade union membership (UNION),Trade union membership,Trade union membership,V245,UNION,UNION,0.897
+Country specific religious affiliation or denomination: Austria,NA,Country specific religious affiliation or denomination: Argentina,Country specific religious affiliation or denomination: Austria,NA,AR_RELIG,AT_RELIG,0.937
+Country specific religious affiliation or denomination: Austria,NA,Country specific religious affiliation or denomination: Austria,Country specific religious affiliation or denomination: Australia,NA,AT_RELIG,AU_RELIG,0.984
+Country specific religious affiliation or denomination: Bulgaria,NA,Country specific religious affiliation or denomination: Australia,Country specific religious affiliation or denomination: Bulgaria,NA,AU_RELIG,BG_RELIG,0.929
+Country specific religious affiliation or denomination: Belgium,NA,Country specific religious affiliation or denomination: Belgium,Country specific religious affiliation or denomination: Switzerland,NA,BE_RELIG,CH_RELIG,0.891
+Country specific religious affiliation or denomination: Bulgaria,NA,Country specific religious affiliation or denomination: Bulgaria,Country specific religious affiliation or denomination: Czech Republic,NA,BG_RELIG,CZ_RELIG,0.879
+Country specific religious affiliation or denomination: Canada,NA,Country specific religious affiliation or denomination: Canada,Country specific religious affiliation or denomination: Germany,NA,CA_RELIG,DE_RELIG,0.927
+Country specific religious affiliation or denomination: Denmark,NA,Country specific religious affiliation or denomination: Switzerland,Country specific religious affiliation or denomination: Denmark,NA,CH_RELIG,DK_RELIG,0.891
+Country specific religious affiliation or denomination: Chile,NA,Country specific religious affiliation or denomination: Chile,Country specific religious affiliation or denomination: Spain,NA,CL_RELIG,ES_RELIG,0.933
+Country specific religious affiliation or denomination: China,NA,Country specific religious affiliation or denomination: China,Country specific religious affiliation or denomination: Finland,NA,CN_RELIG,FI_RELIG,0.951
+Country specific religious affiliation or denomination: France,NA,Country specific religious affiliation or denomination: Czech Republic,Country specific religious affiliation or denomination: France,NA,CZ_RELIG,FR_RELIG,0.877
+Country specific religious affiliation or denomination: Greece,NA,Country specific religious affiliation or denomination: Germany,Country specific religious affiliation or denomination: Greece,NA,DE_RELIG,GR_RELIG,0.927
+Country specific religious affiliation or denomination: Denmark,NA,Country specific religious affiliation or denomination: Denmark,Country specific religious affiliation or denomination: Croatia,NA,DK_RELIG,HR_RELIG,0.903
+Country specific religious affiliation or denomination: Spain,NA,Country specific religious affiliation or denomination: Spain,Country specific religious affiliation or denomination: Hungary,NA,ES_RELIG,HU_RELIG,0.918
+Country specific religious affiliation or denomination: Israel,NA,Country specific religious affiliation or denomination: Finland,Country specific religious affiliation or denomination: Israel,NA,FI_RELIG,IL_RELIG,0.927
+Country specific religious affiliation or denomination: India,NA,Country specific religious affiliation or denomination: France,Country specific religious affiliation or denomination: India,NA,FR_RELIG,IN_RELIG,0.926
+Country specific religious affiliation or denomination: Iceland,NA,Country specific religious affiliation or denomination: Great Britain,Country specific religious affiliation or denomination: Iceland,NA,GB_RELIG,IS_RELIG,0.892
+Country specific religious affiliation or denomination: Italy,NA,Country specific religious affiliation or denomination: Croatia,Country specific religious affiliation or denomination: Italy,NA,HR_RELIG,IT_RELIG,0.918
+Country specific religious affiliation or denomination: Japan,NA,Country specific religious affiliation or denomination: Hungary,Country specific religious affiliation or denomination: Japan,NA,HU_RELIG,JP_RELIG,0.918
+Country specific religious affiliation or denomination: Ireland,NA,Country specific religious affiliation or denomination: Ireland,Country specific religious affiliation or denomination: Lithuania,NA,IE_RELIG,LT_RELIG,0.921
+Country specific religious affiliation or denomination: Israel,NA,Country specific religious affiliation or denomination: Israel,Country specific religious affiliation or denomination: Netherlands,NA,IL_RELIG,NL_RELIG,0.882
+Country specific religious affiliation or denomination: India,NA,Country specific religious affiliation or denomination: India,Country specific religious affiliation or denomination: Norway,NA,IN_RELIG,NO_RELIG,0.942
+Country specific religious affiliation or denomination: Iceland,NA,Country specific religious affiliation or denomination: Iceland,Country specific religious affiliation or denomination: New Zealand,NA,IS_RELIG,NZ_RELIG,0.938
+Country specific religious affiliation or denomination: Japan,NA,Country specific religious affiliation or denomination: Japan,Country specific religious affiliation or denomination: Philippines,NA,JP_RELIG,PH_RELIG,0.905
+Country specific religious affiliation or denomination: Poland,NA,Country specific religious affiliation or denomination: Korea (South),Country specific religious affiliation or denomination: Poland,NA,KR_RELIG,PL_RELIG,0.898
+Country specific religious affiliation or denomination: Russia,NA,Country specific religious affiliation or denomination: Lithuania,Country specific religious affiliation or denomination: Russia,NA,LT_RELIG,RU_RELIG,0.928
+Country specific religious affiliation or denomination: Latvia,NA,Country specific religious affiliation or denomination: Latvia,Country specific religious affiliation or denomination: Sweden,NA,LV_RELIG,SE_RELIG,0.902
+Country specific religious affiliation or denomination: Mexico,NA,Country specific religious affiliation or denomination: Mexico,Country specific religious affiliation or denomination: Slovenia,NA,MX_RELIG,SI_RELIG,0.919
+Country specific religious affiliation or denomination: Slovakia,NA,Country specific religious affiliation or denomination: Netherlands,Country specific religious affiliation or denomination: Slovakia,NA,NL_RELIG,SK_RELIG,0.884
+Country specific religious affiliation or denomination: Norway,NA,Country specific religious affiliation or denomination: Norway,Country specific religious affiliation or denomination: Thailand,NA,NO_RELIG,TH_RELIG,0.903
+Country specific religious affiliation or denomination: Taiwan,NA,Country specific religious affiliation or denomination: Philippines,Country specific religious affiliation or denomination: Taiwan,NA,PH_RELIG,TW_RELIG,0.898
+Country specific religious affiliation or denomination: Poland,NA,Country specific religious affiliation or denomination: Poland,Country specific religious affiliation or denomination: United States,NA,PL_RELIG,US_RELIG,0.868
+Country specific religious affiliation or denomination: Portugal,NA,Country specific religious affiliation or denomination: Portugal,Country specific religious affiliation or denomination: South Africa,NA,PT_RELIG,ZA_RELIG,0.892
+Country specific religious affiliation or denomination: Russia,NA,Country specific religious affiliation or denomination: Russia,NA,NA,RU_RELIG,NA,1.0
+Country specific religious affiliation or denomination: Sweden,NA,Country specific religious affiliation or denomination: Sweden,NA,NA,SE_RELIG,NA,1.0
+Country specific religious affiliation or denomination: Slovenia,NA,Country specific religious affiliation or denomination: Slovenia,NA,NA,SI_RELIG,NA,1.0
+Country specific religious affiliation or denomination: Slovakia,NA,Country specific religious affiliation or denomination: Slovakia,NA,NA,SK_RELIG,NA,1.0
+Country specific religious affiliation or denomination: Turkey,NA,Country specific religious affiliation or denomination: Turkey,NA,NA,TR_RELIG,NA,1.0
+Country specific religious affiliation or denomination: Taiwan,NA,Country specific religious affiliation or denomination: Taiwan,NA,NA,TW_RELIG,NA,1.0
+Country specific region: United States,NA,Country specific religious affiliation or denomination: United States,Country specific region: United States,NA,US_RELIG,US_REG,0.705
+Country specific religious affiliation or denomination: Venezuela,NA,Country specific religious affiliation or denomination: Venezuela,NA,NA,VE_RELIG,NA,1.0
+Country specific religious affiliation or denomination: South Africa,NA,Country specific religious affiliation or denomination: South Africa,NA,NA,ZA_RELIG,NA,1.0
+Groups of religious affiliations (derived from nat_RELIG),NA,Groups of religious affiliations (derived from nat_RELIG),NA,NA,RELIGGRP,NA,1.0
+Attendance of religious services,R: Attendance of religious services (ATTEND),Attendance of religious services,Attendance of religious services,V290,ATTEND,ATTEND,0.918
+Top-Bottom self-placement,R:Top Bottom self-placement 10 pt scale (TOPBOT),Top-Bottom self-placement,Top-Bottom self-placement,V291,TOPBOT,TOPBOT,0.803
+Did respondent vote in last general election?,NA,Did respondent vote in last general election?,Did respondent vote in last general election?,NA,VOTE_LE,VOTE_LE,1.0
+Country specific party voted for in last general election: Austria,NA,Country specific party voted for in last general election: Argentina,Country specific party voted for in last general election: Austria,NA,AR_PRTY,AT_PRTY,0.939
+Country specific party voted for in last general election: Austria,NA,Country specific party voted for in last general election: Austria,Country specific party voted for in last general election: Australia,NA,AT_PRTY,AU_PRTY,0.985
+Country specific party voted for in last general election: Bulgaria,NA,Country specific party voted for in last general election: Australia,Country specific party voted for in last general election: Bulgaria,NA,AU_PRTY,BG_PRTY,0.932
+Country specific party voted for in last general election: Belgium,NA,Country specific party voted for in last general election: Belgium,Country specific party voted for in last general election: Switzerland,NA,BE_PRTY,CH_PRTY,0.896
+Country specific party voted for in last general election: Bulgaria,NA,Country specific party voted for in last general election: Bulgaria,Country specific party voted for in last general election: Czech Republic,NA,BG_PRTY,CZ_PRTY,0.884
+Country specific party voted for in last general election: Canada,NA,Country specific party voted for in last general election: Canada,Country specific party voted for in last general election: Germany,NA,CA_PRTY,DE_PRTY,0.93
+Country specific party voted for in last general election: Denmark,NA,Country specific party voted for in last general election: Switzerland,Country specific party voted for in last general election: Denmark,NA,CH_PRTY,DK_PRTY,0.896
+Country specific party voted for in last general election: Chile,NA,Country specific party voted for in last general election: Chile,Country specific party voted for in last general election: Spain,NA,CL_PRTY,ES_PRTY,0.937
+Country specific party affiliation: China,NA,Country specific party affiliation: China,Country specific party voted for in last general election: Finland,NA,CN_PRTY,FI_PRTY,0.629
+Country specific party voted for in last general election: France,NA,Country specific party voted for in last general election: Czech Republic,Country specific party voted for in last general election: France,NA,CZ_PRTY,FR_PRTY,0.882
+Country specific party voted for in last general election: Greece,NA,Country specific party voted for in last general election: Germany,Country specific party voted for in last general election: Greece,NA,DE_PRTY,GR_PRTY,0.93
+Country specific party voted for in last general election: Denmark,NA,Country specific party voted for in last general election: Denmark,Country specific party voted for in last general election: Croatia,NA,DK_PRTY,HR_PRTY,0.908
+Country specific party voted for in last general election: Spain,NA,Country specific party voted for in last general election: Spain,Country specific party voted for in last general election: Hungary,NA,ES_PRTY,HU_PRTY,0.922
+Country specific party voted for in last general election: Israel,NA,Country specific party voted for in last general election: Finland,Country specific party voted for in last general election: Israel,NA,FI_PRTY,IL_PRTY,0.93
+Country specific party voted for in last general election: India,NA,Country specific party voted for in last general election: France,Country specific party voted for in last general election: India,NA,FR_PRTY,IN_PRTY,0.929
+Country specific party voted for in last general election: Iceland,NA,Country specific party supporting in next general election: Great Britain,Country specific party voted for in last general election: Iceland,NA,GB_PRTY,IS_PRTY,0.745
+Country specific party voted for in last general election: Italy,NA,Country specific party voted for in last general election: Croatia,Country specific party voted for in last general election: Italy,NA,HR_PRTY,IT_PRTY,0.922
+Country specific party voted for in last general election: Japan,NA,Country specific party voted for in last general election: Hungary,Country specific party voted for in last general election: Japan,NA,HU_PRTY,JP_PRTY,0.922
+Country specific party voted for in last general election: Ireland,NA,Country specific party voted for in last general election: Ireland,Country specific party voted for in last general election: Lithuania,NA,IE_PRTY,LT_PRTY,0.924
+Country specific party voted for in last general election: Israel,NA,Country specific party voted for in last general election: Israel,Country specific party voted for in last general election: Netherlands,NA,IL_PRTY,NL_PRTY,0.887
+Country specific party voted for in last general election: India,NA,Country specific party voted for in last general election: India,Country specific party voted for in last general election: Norway,NA,IN_PRTY,NO_PRTY,0.945
+Country specific party voted for in last general election: Iceland,NA,Country specific party voted for in last general election: Iceland,Country specific party voted for in last general election: New Zealand,NA,IS_PRTY,NZ_PRTY,0.94
+Country specific party voted for in last general election: Japan,NA,Country specific party voted for in last general election: Japan,Country specific party voted for in last general election: Philippines,NA,JP_PRTY,PH_PRTY,0.909
+Country specific party voted for in last general election: Poland,NA,Country specific party voted for in last general election: Korea (South),Country specific party voted for in last general election: Poland,NA,KR_PRTY,PL_PRTY,0.902
+Country specific party voted for in last general election: Russia,NA,Country specific party voted for in last general election: Lithuania,Country specific party voted for in last general election: Russia,NA,LT_PRTY,RU_PRTY,0.931
+Country specific party voted for in last general election: Latvia,NA,Country specific party voted for in last general election: Latvia,Country specific party voted for in last general election: Sweden,NA,LV_PRTY,SE_PRTY,0.906
+Country specific party voted for in last general election: Mexico,NA,Country specific party voted for in last general election: Mexico,Country specific party voted for in last general election: Slovenia,NA,MX_PRTY,SI_PRTY,0.923
+Country specific party voted for in last general election: Slovakia,NA,Country specific party voted for in last general election: Netherlands,Country specific party voted for in last general election: Slovakia,NA,NL_PRTY,SK_PRTY,0.889
+Country specific party voted for in last general election: Norway,NA,Country specific party voted for in last general election: Norway,Country specific party voted for in last general election: Thailand,NA,NO_PRTY,TH_PRTY,0.908
+Country specific party voted for in last general election: Taiwan,NA,Country specific party voted for in last general election: Philippines,Country specific party voted for in last general election: Taiwan,NA,PH_PRTY,TW_PRTY,0.902
+Country specific party voted for in last general election: Poland,NA,Country specific party voted for in last general election: Poland,Country specific party voted for in last general election: United States,NA,PL_PRTY,US_PRTY,0.874
+Country specific party voted for in last general election: Portugal,NA,Country specific party voted for in last general election: Portugal,Country specific party voted for in last general election: South Africa,NA,PT_PRTY,ZA_PRTY,0.897
+Country specific party voted for in last general election: Russia,NA,Country specific party voted for in last general election: Russia,NA,NA,RU_PRTY,NA,1.0
+Country specific party voted for in last general election: Sweden,NA,Country specific party voted for in last general election: Sweden,NA,NA,SE_PRTY,NA,1.0
+Country specific party voted for in last general election: Slovenia,NA,Country specific party voted for in last general election: Slovenia,NA,NA,SI_PRTY,NA,1.0
+Country specific party voted for in last general election: Slovakia,NA,Country specific party voted for in last general election: Slovakia,NA,NA,SK_PRTY,NA,1.0
+Country specific party voted for in last general election: Turkey,NA,Country specific party voted for in last general election: Turkey,NA,NA,TR_PRTY,NA,1.0
+Country specific party voted for in last general election: Taiwan,NA,Country specific party voted for in last general election: Taiwan,NA,NA,TW_PRTY,NA,1.0
+Country specific party voted for in last general election: United States,NA,Country specific party voted for in last general election: United States,NA,NA,US_PRTY,NA,1.0
+Country specific party voted for in last general election: Venezuela,NA,Country specific party voted for in last general election: Venezuela,NA,NA,VE_PRTY,NA,1.0
+Country specific party voted for in last general election: South Africa,NA,Country specific party voted for in last general election: South Africa,NA,NA,ZA_PRTY,NA,1.0
+Party respondent voted for in last general election: left-right scale,NA,Party voted for in last general election: left-right (derived from nat_PRTY),Party respondent voted for in last general election: left-right scale,NA,PARTY_LR,PARTY_LR,0.752
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Argentina,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Argentina,NA,NA,AR_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Austria,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Austria,NA,NA,AT_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Australia,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Australia,NA,NA,AU_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Belgium,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Belgium,NA,NA,BE_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Bulgaria,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Bulgaria,NA,NA,BG_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Canada,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Canada,NA,NA,CA_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Switzerland,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Switzerland,NA,NA,CH_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Chile,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Chile,NA,NA,CL_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: China,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: China,NA,NA,CN_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Czech Republic,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Czech Republic,NA,NA,CZ_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Germany,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Germany,NA,NA,DE_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Denmark,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Denmark,NA,NA,DK_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Spain,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Spain,NA,NA,ES_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Finland,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Finland,NA,NA,FI_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: France,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: France,NA,NA,FR_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Great Britain,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Great Britain,NA,NA,GB_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Croatia,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Croatia,NA,NA,HR_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Hungary,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Hungary,NA,NA,HU_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Ireland,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Ireland,NA,NA,IE_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Israel,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Israel,NA,NA,IL_ETHN,NA,1.0
+Country specific ethnic group 1: India,NA,Country specific ethnic group: caste system: India,Country specific ethnic group 1: India,NA,IN_ETHN,IN_ETHN1,0.847
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Iceland,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Iceland,NA,NA,IS_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Japan,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Japan,NA,NA,JP_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Korea (South),NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Korea (South),NA,NA,KR_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Lithuania,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Lithuania,NA,NA,LT_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Latvia,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Latvia,NA,NA,LV_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Mexico,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Mexico,NA,NA,MX_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Netherlands,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Netherlands,NA,NA,NL_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Norway,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Norway,NA,NA,NO_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Philippines,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Philippines,NA,NA,PH_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Poland,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Poland,NA,NA,PL_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Portugal,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Portugal,NA,NA,PT_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Russia,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Russia,NA,NA,RU_ETHN,NA,1.0
+Country specific ethnic group 1: Sweden,NA,Country specific: origin country/ ethnic group _father: Sweden,Country specific ethnic group 1: Sweden,NA,SE_ETHN,SE_ETHN1,0.771
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Slovenia,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Slovenia,NA,NA,SI_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Slovakia,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Slovakia,NA,NA,SK_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Turkey,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Turkey,NA,NA,TR_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Taiwan,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Taiwan,NA,NA,TW_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: United States,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: United States,NA,NA,US_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Venezuela,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: Venezuela,NA,NA,VE_ETHN,NA,1.0
+Country specific: origin country/ ethnic group/ ethnic identity/ family origin: South Africa,NA,Country specific: origin country/ ethnic group/ ethnic identity/ family origin: South Africa,NA,NA,ZA_ETHN,NA,1.0
+How many children in household: children between [school age] and 17 years of age,NA,How many children in household: children between [school age] and 17 years of age,NA,NA,HHCHILDR,NA,1.0
+How many toddlers in household: children up to [school age -1] years,NA,How many toddlers in household: children up to [school age -1] years,NA,NA,HHTODD,NA,1.0
+How many persons in household,How many persons in household (HOMPOP),How many persons in household,How many persons in household,V251,HOMPOP,HOMPOP,0.928
+Country specific personal income: Austria,NA,Country specific personal income: Argentina,Country specific personal income: Austria,NA,AR_RINC,AT_RINC,0.902
+Country specific personal income: Austria,NA,Country specific personal income: Austria,Country specific personal income: Australia,NA,AT_RINC,AU_RINC,0.976
+Country specific personal income: Bulgaria,NA,Country specific personal income: Australia,Country specific personal income: Bulgaria,NA,AU_RINC,BG_RINC,0.892
+Country specific personal income: Belgium,NA,Country specific personal income: Belgium,Country specific personal income: Switzerland,NA,BE_RINC,CH_RINC,0.833
+Country specific personal income: Bulgaria,NA,Country specific personal income: Bulgaria,Country specific personal income: Czech Republic,NA,BG_RINC,CZ_RINC,0.818
+Country specific personal income: Canada,NA,Country specific personal income: Canada,Country specific personal income: Germany,NA,CA_RINC,DE_RINC,0.886
+Country specific personal income: Denmark,Country specific education: Switzerland (CH_DEGR),Country specific personal income: Switzerland,Country specific personal income: Denmark,V210,CH_RINC,DK_RINC,0.724
+Country specific personal income: Chile,NA,Country specific personal income: Chile,Country specific personal income: Spain,NA,CL_RINC,ES_RINC,0.895
+Country specific personal income: China,NA,Country specific personal income: China,Country specific personal income: Finland,NA,CN_RINC,FI_RINC,0.923
+Country specific personal income: France,Country specific educ: Czech Republic (CZ_DEGR),Country specific personal income: Czech Republic,Country specific personal income: France,V212,CZ_RINC,FR_RINC,0.697
+Country specific personal income: Greece,NA,Country specific personal income: Germany,Country specific personal income: Greece,NA,DE_RINC,GR_RINC,0.886
+Country specific personal income: Denmark,Country specific education: Mexico (MX_DEGR),Country specific personal income: Denmark,Country specific personal income: Croatia,V224,DK_RINC,HR_RINC,0.703
+Country specific personal income: Spain,NA,Country specific personal income: Spain,Country specific personal income: Hungary,NA,ES_RINC,HU_RINC,0.872
+Country specific personal income: Israel,NA,Country specific personal income: Finland,Country specific personal income: Israel,NA,FI_RINC,IL_RINC,0.886
+Country specific personal income: India,NA,Country specific personal income: France,Country specific personal income: India,NA,FR_RINC,IN_RINC,0.883
+Country specific personal income: Iceland,NA,Country specific personal income: Great Britain,Country specific personal income: Iceland,NA,GB_RINC,IS_RINC,0.837
+Country specific personal income: Italy,NA,Country specific personal income: Croatia,Country specific personal income: Italy,NA,HR_RINC,IT_RINC,0.872
+Country specific personal income: Japan,NA,Country specific personal income: Hungary,Country specific personal income: Japan,NA,HU_RINC,JP_RINC,0.872
+Country specific personal income: Ireland,NA,Country specific personal income: Ireland,Country specific personal income: Lithuania,NA,IE_RINC,LT_RINC,0.878
+Country specific personal income: Israel,NA,Country specific personal income: Israel,Country specific personal income: Netherlands,NA,IL_RINC,NL_RINC,0.819
+Country specific personal income: India,NA,Country specific personal income: India,Country specific personal income: Norway,NA,IN_RINC,NO_RINC,0.909
+Country specific personal income: Iceland,NA,Country specific personal income: Iceland,Country specific personal income: New Zealand,NA,IS_RINC,NZ_RINC,0.905
+Country specific personal income: Japan,NA,Country specific personal income: Japan,Country specific personal income: Philippines,NA,JP_RINC,PH_RINC,0.854
+Country specific personal income: Poland,NA,Country specific personal income: Korea (South),Country specific personal income: Poland,NA,KR_RINC,PL_RINC,0.843
+Country specific personal income: Russia,NA,Country specific personal income: Lithuania,Country specific personal income: Russia,NA,LT_RINC,RU_RINC,0.889
+Country specific personal income: Latvia,NA,Country specific personal income: Latvia,Country specific personal income: Sweden,NA,LV_RINC,SE_RINC,0.846
+Country specific personal income: Mexico,NA,Country specific personal income: Mexico,Country specific personal income: Slovenia,NA,MX_RINC,SI_RINC,0.875
+Country specific personal income: Slovakia,Country specific education: Netherlands (NL_DEGR),Country specific personal income: Netherlands,Country specific personal income: Slovakia,V226,NL_RINC,SK_RINC,0.695
+Country specific personal income: Norway,NA,Country specific personal income: Norway,Country specific personal income: Thailand,NA,NO_RINC,TH_RINC,0.85
+Country specific personal income: Taiwan,Country specific education: Philippines (PH_DEGR),Country specific personal income: Philippines,Country specific personal income: Taiwan,V231,PH_RINC,TW_RINC,0.714
+Country specific personal income: Poland,NA,Country specific personal income: Poland,Country specific personal income: United States,NA,PL_RINC,US_RINC,0.8
+Country specific personal income: Portugal,NA,Country specific personal income: Portugal,Country specific personal income: South Africa,NA,PT_RINC,ZA_RINC,0.837
+Country specific personal income: Russia,NA,Country specific personal income: Russia,Country specific household income: Russia,NA,RU_RINC,RU_INC,0.861
+Country specific personal income: Sweden,NA,Country specific personal income: Sweden,Country specific household income: Sweden,NA,SE_RINC,SE_INC,0.861
+Country specific personal income: Slovenia,NA,Country specific personal income: Slovenia,Country specific household income: Slovenia,NA,SI_RINC,SI_INC,0.867
+Country specific personal income: Slovakia,NA,Country specific personal income: Slovakia,Country specific household income: Slovakia,NA,SK_RINC,SK_INC,0.867
+Country specific personal income: Turkey,NA,Country specific personal income: Turkey,Country specific household income: Hungary,NA,TR_RINC,HU_INC,0.775
+Country specific personal income: Taiwan,NA,Country specific personal income: Taiwan,Country specific household income: Taiwan,NA,TW_RINC,TW_INC,0.861
+Country specific personal income: United States,NA,Country specific personal income: United States,Country specific household income: United States,NA,US_RINC,US_INC,0.882
+Country specific personal income: Venezuela,NA,Country specific personal income: Venezuela,Country specific household income: New Zealand,NA,VE_RINC,NZ_INC,0.782
+Country specific personal income: South Africa,NA,Country specific personal income: South Africa,Country specific household income: South Africa,NA,ZA_RINC,ZA_INC,0.879
+Country specific household income: Austria,NA,Country specific household income: Argentina,Country specific household income: Austria,NA,AR_INC,AT_INC,0.905
+Country specific household income: Austria,NA,Country specific household income: Austria,Country specific household income: Australia,NA,AT_INC,AU_INC,0.976
+Country specific household income: Bulgaria,NA,Country specific household income: Australia,Country specific household income: Bulgaria,NA,AU_INC,BG_INC,0.894
+Country specific household income: Belgium,NA,Country specific household income: Belgium,Country specific household income: Switzerland,NA,BE_INC,CH_INC,0.837
+Country specific household income: Bulgaria,NA,Country specific household income: Bulgaria,Country specific household income: Czech Republic,NA,BG_INC,CZ_INC,0.822
+Country specific household income: Canada,NA,Country specific household income: Canada,Country specific household income: Germany,NA,CA_INC,DE_INC,0.889
+Country specific household income: Denmark,NA,Country specific household income: Switzerland,Country specific household income: Denmark,NA,CH_INC,DK_INC,0.837
+Country specific household income: Chile,NA,Country specific household income: Chile,Country specific household income: Spain,NA,CL_INC,ES_INC,0.897
+Country specific household income: China,NA,Country specific household income: China,Country specific household income: Finland,NA,CN_INC,FI_INC,0.925
+Country specific household income: France,NA,Country specific household income: Czech Republic,Country specific household income: France,NA,CZ_INC,FR_INC,0.818
+Country specific household income: Greece,NA,Country specific household income: Germany,Country specific household income: Greece,NA,DE_INC,GR_INC,0.889
+Country specific household income: Denmark,NA,Country specific household income: Denmark,Country specific household income: Croatia,NA,DK_INC,HR_INC,0.854
+Country specific household income: Spain,NA,Country specific household income: Spain,Country specific household income: Israel,NA,ES_INC,IL_INC,0.911
+Country specific household income: India,NA,Country specific household income: Finland,Country specific household income: India,NA,FI_INC,IN_INC,0.925
+Country specific household income: France,NA,Country specific household income: France,Country specific household income: Iceland,NA,FR_INC,IS_INC,0.889
+Country specific household income: Italy,NA,Country specific household income: Great Britain,Country specific household income: Italy,NA,GB_INC,IT_INC,0.86
+Country specific household income: Japan,NA,Country specific household income: Croatia,Country specific household income: Japan,NA,HR_INC,JP_INC,0.9
+Country specific household income: Hungary,NA,Country specific household income: Hungary,Country specific household income: Lithuania,NA,HU_INC,LT_INC,0.905
+Country specific household income: Ireland,NA,Country specific household income: Ireland,Country specific household income: Netherlands,NA,IE_INC,NL_INC,0.907
+Country specific household income: Israel,NA,Country specific household income: Israel,Country specific household income: Norway,NA,IL_INC,NO_INC,0.9
+Country specific household income: India,NA,Country specific household income: India,Country specific household income: Philippines,NA,IN_INC,PH_INC,0.857
+Country specific household income: Poland,NA,Country specific household income: Iceland,Country specific household income: Poland,NA,IS_INC,PL_INC,0.938
+Country specific household income: Japan,NA,Country specific household income: Japan,Country specific household income: Thailand,NA,JP_INC,TH_INC,0.914
+Country specific household income: Korea (South),NA,Country specific household income: Korea (South),NA,NA,KR_INC,NA,1.0
+Country specific region: Lithuania,NA,Country specific household income: Lithuania,Country specific region: Lithuania,NA,LT_INC,LT_REG,0.763
+Country specific household income: Latvia,NA,Country specific household income: Latvia,NA,NA,LV_INC,NA,1.0
+Country specific household income: Mexico,NA,Country specific household income: Mexico,NA,NA,MX_INC,NA,1.0
+Country specific region: Netherlands,NA,Country specific household income: Netherlands,Country specific region: Netherlands,NA,NL_INC,NL_REG,0.775
+Country specific region: Norway,NA,Country specific household income: Norway,Country specific region: Norway,NA,NO_INC,NO_REG,0.743
+Country specific region: Philippines,NA,Country specific household income: Philippines,Country specific region: Philippines,NA,PH_INC,PH_REG,0.775
+Country specific region: Poland,NA,Country specific household income: Poland,Country specific region: Poland,NA,PL_INC,PL_REG,0.743
+Country specific household income: Portugal,NA,Country specific household income: Portugal,NA,NA,PT_INC,NA,1.0
+Country specific region: Russia,NA,Country specific household income: Russia,Country specific region: Russia,NA,RU_INC,RU_REG,0.743
+Country specific region: Sweden,NA,Country specific household income: Sweden,Country specific region: Sweden,NA,SE_INC,SE_REG,0.743
+Country specific region: Slovenia,NA,Country specific household income: Slovenia,Country specific region: Slovenia,NA,SI_INC,SI_REG,0.757
+Country specific region: Slovakia,NA,Country specific household income: Slovakia,Country specific region: Slovakia,NA,SK_INC,SK_REG,0.757
+Country specific household income: Turkey,NA,Country specific household income: Turkey,NA,NA,TR_INC,NA,1.0
+Country specific region: Taiwan,NA,Country specific household income: Taiwan,Country specific region: Taiwan,NA,TW_INC,TW_REG,0.743
+Country specific ethnic group 1: United States,NA,Country specific household income: United States,Country specific ethnic group 1: United States,NA,US_INC,US_ETHN1,0.761
+Country specific household income: Venezuela,NA,Country specific household income: Venezuela,NA,NA,VE_INC,NA,1.0
+Country specific region: South Africa,NA,Country specific household income: South Africa,Country specific region: South Africa,NA,ZA_INC,ZA_REG,0.78
+Legal partnership status,NA,Legal partnership status,Legal partnership status,NA,MARITAL,MARITAL,1.0
+Place of living: urban - rural,NA,Place of living: urban - rural,Place of living: urban - rural,NA,URBRURAL,URBRURAL,1.0
+Country specific region: Austria,NA,Country specific region: Argentina,Country specific region: Austria,NA,AR_REG,AT_REG,0.875
+Country specific region: Austria,Country specific education: USA (US_DEGR),Country specific region: Austria,Country specific region: Australia,V238,AT_REG,AU_REG,0.799
+Country specific region: Bulgaria,Country specific education: Israel (IL_DEGR),Country specific region: Australia,Country specific region: Bulgaria,V220,AU_REG,BG_REG,0.75
+Country specific region: Belgium,Country specific education: Chile (CL_DEGR),Country specific region: Belgium,Country specific region: Switzerland,V230,BE_REG,CH_REG,0.72
+Country specific region: Bulgaria,Country specific education: Latvia (LV_DEGR),Country specific region: Bulgaria,Country specific region: Czech Republic,V223,BG_REG,CZ_REG,0.697
+Country specific region: Canada,Country specific education: Spain (ES_DEGR),Country specific region: Canada,Country specific region: Germany,V215,CA_REG,DE_REG,0.748
+Country specific region: Denmark,Country specific education: Ireland (IE_DEGR),Country specific region: Switzerland,Country specific region: Denmark,V221,CH_REG,DK_REG,0.733
+Country specific region: Chile,Country specific education: Finland (FI_DEGR),Country specific region: Chile,Country specific region: Spain,V234,CL_REG,ES_REG,0.747
+Country specific region: China,Country specific education: Hungary (HU_DEGR),Country specific region: China,Country specific region: Finland,V219,CN_REG,FI_REG,0.763
+Country specific region: France,NA,Country specific region: Czech Republic,Country specific region: France,NA,CZ_REG,FR_REG,0.765
+Country specific region: Greece,Country specific education: Germany (DE_DEGR),Country specific region: Germany,Country specific region: Greece,V213,DE_REG,GR_REG,0.79
+Country specific region: Denmark,Country specific education: Denmark (DK_DEGR),Country specific region: Denmark,Country specific region: Croatia,V214,DK_REG,HR_REG,0.744
+Country specific region: Spain,Country specific education: Japan (JP_DEGR),Country specific region: Spain,Country specific region: Hungary,V222,ES_REG,HU_REG,0.745
+Country specific region: Israel,Country specific education: France (FR_DEGR),Country specific region: Finland,Country specific region: Israel,V216,FI_REG,IL_REG,0.76
+Country specific region: India,Country specific education: Norway (NO_DEGR),Country specific region: France,Country specific region: India,V225,FR_REG,IN_REG,0.755
+Country specific region: Iceland,Country specific education: Great Britain GB-GBN (GB_DEGR),Country specific region: Great Britain (GB-GBN),Country specific region: Iceland,V218,GB_REG,IS_REG,0.724
+Country specific region: Italy,Country specific education: Slovakia (SK_DEGR),Country specific region: Croatia,Country specific region: Italy,V235,HR_REG,IT_REG,0.725
+Country specific region: Japan,Country specific education: Portugal (PT_DEGR),Country specific region: Hungary,Country specific region: Japan,V228,HU_REG,JP_REG,0.734
+Country specific region: Ireland,Country specific education: Poland (PL_DEGR),Country specific region: Ireland,Country specific region: New Zealand,V229,IE_REG,NZ_REG,0.762
+Country specific region: Israel,Country specific education: Russia (RU_DEGR),Country specific region: Israel,Country specific region: Thailand,V232,IL_REG,TH_REG,0.743
+Country specific region: India,Country specific education: Taiwan (TW_DEGR),Country specific region: India,Country specific ethnic group 2: India,V237,IN_REG,IN_ETHN2,0.679
+Country specific region: Iceland,Country specific education: New Zealand (NZ_DEGR),Country specific region: Iceland,Country specific ethnic group 1: Iceland,V227,IS_REG,IS_ETHN1,0.687
+Country specific region: Japan,NA,Country specific region: Japan,Country specific ethnic group 1: Japan,NA,JP_REG,JP_ETHN1,0.758
+Country specific region: Korea (South),NA,Country specific region: Korea (South),NA,NA,KR_REG,NA,1.0
+Country specific region: Lithuania,NA,Country specific region: Lithuania,Country specific ethnic group 1: Lithuania,NA,LT_REG,LT_ETHN1,0.784
+Country specific region: Latvia,Country specific education: Slovenia (SI_DEGR),Country specific region: Latvia,NA,V236,LV_REG,NA,0.712
+Country specific region: Mexico,NA,Country specific region: Mexico,NA,NA,MX_REG,NA,1.0
+Country specific region: Netherlands,NA,Country specific region: Netherlands,Country specific ethnic group 1: Netherlands,NA,NL_REG,NL_ETHN1,0.795
+Country specific region: Norway,NA,Country specific region: Norway,Country specific ethnic group 1: Norway,NA,NO_REG,NO_ETHN1,0.765
+Country specific region: Philippines,NA,Country specific region: Philippines,Country specific ethnic group 1: Philippines,NA,PH_REG,PH_ETHN1,0.795
+Country specific region: Poland,NA,Country specific region: Poland,Country specific ethnic group 1: Poland,NA,PL_REG,PL_ETHN1,0.765
+Country specific region: Portugal,Country specific education: Cyprus (CY_DEGR),Country specific region: Portugal,NA,V211,PT_REG,NA,0.712
+Country specific region: Russia,NA,Country specific region: Russia,Country specific ethnic group 1: Russia,NA,RU_REG,RU_ETHN1,0.765
+Country specific region: Sweden,Country specific education: Sweden (SE_DEGR),Country specific region: Sweden,Country specific ethnic group 2: Sweden,V233,SE_REG,SE_ETHN2,0.737
+Country specific region: Slovenia,NA,Country specific region: Slovenia,Country specific ethnic group 1: Slovenia,NA,SI_REG,SI_ETHN1,0.778
+Country specific region: Slovakia,NA,Country specific region: Slovakia,Country specific ethnic group 1: Slovakia,NA,SK_REG,SK_ETHN1,0.778
+Country specific region: Turkey,NA,Country specific region: Turkey,NA,NA,TR_REG,NA,1.0
+Country specific region: Taiwan,NA,Country specific region: Taiwan,Country specific ethnic group 1: Taiwan,NA,TW_REG,TW_ETHN1,0.765
+Country specific region: United States,NA,Country specific region: United States,Country specific ethnic group 2: United States,NA,US_REG,US_ETHN2,0.805
+Country specific region: Venezuela,NA,Country specific region: Venezuela,NA,NA,VE_REG,NA,1.0
+Country specific region: South Africa,NA,Country specific region: South Africa,Country specific ethnic group 1: South Africa,NA,ZA_REG,ZA_ETHN1,0.8
+ID Number of Respondent,NA,ID Number of Respondent,ID Number of respondent,NA,CASEID,CASEID,1.0
+Case substitution flag,NA,Case substitution flag,Case substitution flag,NA,SUBSCASE,SUBSCASE,1.0
+Year of interview: YYYY (four digits),NA,Date of interview: year of interview; YYYY (four digits),Year of interview: YYYY (four digits),NA,DATEYR,DATEYR,0.791
+Month of interview: MM (two digits),NA,Date of interview: month of interview: MM (two digits),Month of interview: MM (two digits),NA,DATEMO,DATEMO,0.78
+Day of interview: DD (two digits),NA,Date of interview: day of interview: DD (two digits),Day of interview: DD (two digits),NA,DATEDY,DATEDY,0.769
+Weighting factor,Weighting factor (WEIGHT),Weighting factor,NA,V361,WEIGHT,NA,0.821
+Administrative mode of data-collection,Administrative mode of data-collection (MODE),Administrative mode of data-collection,Administrative mode of data-collection,V360,MODE,MODE,0.959
+Respondent Number,Respondent Number,NA,NA,V3,NA,NA,1.0
+Country/ Sample (ISO 3166),Country/ Sample (ISO 3166),NA,NA,COUNTRY,NA,NA,1.0
+Q1a Workg mom: warm relation child ok,Q1a Workg mom: warm relation child ok,NA,NA,V4,NA,NA,1.0
+Q1c Workg woman: family life suffers,Q1c Workg woman: family life suffers,NA,NA,V6,NA,NA,1.0
+Q1e Household satisfies as much as paid job,Q1e Household satisfies as much as paid job,NA,NA,V8,NA,NA,1.0
+Q1f Work is best for women's independence,Q1f Work is best for women's independence,NA,NA,V9,NA,NA,1.0
+"Q2b Men's job is work,women's job household","Q2b Men's job is work,women's job household",NA,NA,V11,NA,NA,1.0
+Q2c Men should do larger share of hh work,Q2c Men should do larger share of hh work,NA,NA,V12,NA,NA,1.0
+Q2d Men should do larger share of childcare,Q2d Men should do larger share of childcare,NA,NA,V13,NA,NA,1.0
+Q3a Shld women work:after marr.before kids,Q3a Shld women work:after marr.before kids,NA,NA,V14,NA,NA,1.0
+Q3d Shld women work: when kids left home,Q3d Shld women work: when kids left home,NA,NA,V17,NA,NA,1.0
+Q4b Bad marriage better than no marriage,Q4b Bad marriage better than no marriage,NA,NA,V19,NA,NA,1.0
+Q4f Couple live together bef. get married,Q4f Couple live together bef. get married,NA,NA,V23,NA,NA,1.0
+Q5b People without kids: lead empty lives,Q5b People without kids: lead empty lives,NA,NA,V26,NA,NA,1.0
+Q6a Workg women shld:paid maternity leave,Q6a Workg women shld:paid maternity leave,NA,NA,V27,NA,NA,1.0
+Q6b Workg parents shld:financial benefits,Q6b Workg parents shld:financial benefits,NA,NA,V28,NA,NA,1.0
+Q7 Organizing income in partnership,Q7 Organizing income in partnership,NA,NA,V29,NA,NA,1.0
+Q11 How often disagree abt sharg of hh work,Q11 How often disagree abt sharg of hh work,NA,NA,V39,NA,NA,1.0
+Q13b Final say: buying major things for home,Q13b Final say: buying major things for home,NA,NA,V42,NA,NA,1.0
+Q15a So many things to do at home,Q15a So many things to do at home,NA,NA,V44,NA,NA,1.0
+Q15b My life at home is rarely stressful,Q15b My life at home is rarely stressful,NA,NA,V45,NA,NA,1.0
+Q15c So many things to do at work,Q15c So many things to do at work,NA,NA,V46,NA,NA,1.0
+Q15d My job is rarely stressful,Q15d My job is rarely stressful,NA,NA,V47,NA,NA,1.0
+Q21a R worked outside: before R has children,Q21a R worked outside: before R has children,NA,NA,V56,NA,NA,1.0
+Q21d R worked outside: after kids left home,Q21d R worked outside: after kids left home,NA,NA,V59,NA,NA,1.0
+Q22a Spouse worked outside:before children,Q22a Spouse worked outside:before children,NA,NA,V60,NA,NA,1.0
+Q22d Sp. work outside: after kids left home,Q22d Sp. work outside: after kids left home,NA,NA,V63,NA,NA,1.0
+"Q23 Shld women work outside,when not yt kid","Q23 Shld women work outside,when not yt kid",NA,NA,V64,NA,NA,1.0
+Q24a How many people in hh: adults 18 yrs +,Q24a How many people in hh: adults 18 yrs +,NA,NA,V65,NA,NA,1.0
+"Q24b How many people in hh:kids 6,7 - 17 yrs","Q24b How many people in hh:kids 6,7 - 17 yrs",NA,NA,V66,NA,NA,1.0
+"Q24c Number of people in hh: kids up to 5,6","Q24c Number of people in hh: kids up to 5,6",NA,NA,V67,NA,NA,1.0
+Q24d Total number of people in household,Q24d Total number of people in household,NA,NA,V68,NA,NA,1.0
+Q25 Total number of children (PH:<18) R had,Q25 Total number of children (PH:<18) R had,NA,NA,V69,NA,NA,1.0
+Q26 Spouse degree: highest qualification,Q26 Spouse degree: highest qualification,NA,NA,V70,NA,NA,1.0
+R: Sex (SEX),R: Sex (SEX),NA,NA,V200,NA,NA,1.0
+R: Age (AGE),R: Age (AGE),NA,NA,V201,NA,NA,1.0
+R: Marital status (MARITAL),R: Marital status (MARITAL),NA,NA,V202,NA,NA,1.0
+R: Steady life-partner (COHAB),R: Steady life-partner (COHAB),NA,NA,V203,NA,NA,1.0
+R: Education II-highest education level (DEGREE),R: Education II-highest education level (DEGREE),NA,NA,V205,NA,NA,1.0
+Country spec.education categ: Austria (AT_DEGR),Country spec.education categ: Austria (AT_DEGR),NA,NA,V206,NA,NA,1.0
+Country spec.education categ: Australia (AU_DEGR),Country spec.education categ: Australia (AU_DEGR),NA,NA,V207,NA,NA,1.0
+Country spec.education categ: Bulgaria (BG_DEGR),Country spec.education categ: Bulgaria (BG_DEGR),NA,NA,V208,NA,NA,1.0
+Country spec.education categ: Brazil (BR_DEGR),Country spec.education categ: Brazil (BR_DEGR),NA,NA,V209,NA,NA,1.0
+Country specific education: Belgium/ Flanders BE-FLA (BE_DEGR),Country specific education: Belgium/ Flanders BE-FLA (BE_DEGR),NA,NA,V217,NA,NA,1.0
+R: Current employment status (WRKST),R: Current employment status (WRKST),NA,NA,V239,NA,NA,1.0
+"R: Occupation ILO,ISCO 1988 4-digit (ISCO88)","R: Occupation ILO,ISCO 1988 4-digit (ISCO88)",NA,NA,V241,NA,NA,1.0
+"R: Workg f priv.,pub sector, selfempl. (WRKTYPE)","R: Workg f priv.,pub sector, selfempl. (WRKTYPE)",NA,NA,V242,NA,NA,1.0
+R: Self-employed - number of employees (NEMPLOY),R: Self-employed - number of employees (NEMPLOY),NA,NA,V243,NA,NA,1.0
+R: Supervises others at work (WRKSUP),R: Supervises others at work (WRKSUP),NA,NA,V244,NA,NA,1.0
+S-P: Current employment status (SPWRKST),S-P: Current employment status (SPWRKST),NA,NA,V246,NA,NA,1.0
+"S-P: Occupation ILO,ISCO 1988 4-digit (SPISCO88)","S-P: Occupation ILO,ISCO 1988 4-digit (SPISCO88)",NA,NA,V247,NA,NA,1.0
+"S-P:Workg f priv,pub sector,self-empl. (SPWRKTYP)","S-P:Workg f priv,pub sector,self-empl. (SPWRKTYP)",NA,NA,V248,NA,NA,1.0
+R: Earnings (RINC),R: Earnings (RINC),NA,NA,V249,NA,NA,1.0
+Family income (INC),Family income (INC),NA,NA,V250,NA,NA,1.0
+Household composition:children+adults (HHCYCLE),Household composition:children+adults (HHCYCLE),NA,NA,V252,NA,NA,1.0
+R: Party affiliation: left-right (der.) (PRTY_LR),R: Party affiliation: left-right (der.) (PRTY_LR),NA,NA,V253,NA,NA,1.0
+R: Party affiliation: Austria (AT_PRTY),R: Party affiliation: Austria (AT_PRTY),NA,NA,V254,NA,NA,1.0
+R: Party affiliation: Australia (AU_PRTY),R: Party affiliation: Australia (AU_PRTY),NA,NA,V255,NA,NA,1.0
+R: Party affiliation: Bulgaria (BG_PRTY),R: Party affiliation: Bulgaria (BG_PRTY),NA,NA,V256,NA,NA,1.0
+R: Party affiliation: Brazil (BR_PRTY),R: Party affiliation: Brazil (BR_PRTY),NA,NA,V257,NA,NA,1.0
+R: Party affiliation: Switzerland (CH_PRTY),R: Party affiliation: Switzerland (CH_PRTY),NA,NA,V258,NA,NA,1.0
+R: Party affiliation: Cyprus (CY_PRTY),R: Party affiliation: Cyprus (CY_PRTY),NA,NA,V259,NA,NA,1.0
+R: Party affiliation: Czech Republic (CZ_PRTY),R: Party affiliation: Czech Republic (CZ_PRTY),NA,NA,V260,NA,NA,1.0
+R: Party affiliation: Germany (DE_PRTY),R: Party affiliation: Germany (DE_PRTY),NA,NA,V261,NA,NA,1.0
+R: Party affiliation: Denmark (DK_PRTY),R: Party affiliation: Denmark (DK_PRTY),NA,NA,V262,NA,NA,1.0
+R: Party affiliation: Spain (ES_PRTY),R: Party affiliation: Spain (ES_PRTY),NA,NA,V263,NA,NA,1.0
+R: Party affiliation: France (FR_PRTY),R: Party affiliation: France (FR_PRTY),NA,NA,V264,NA,NA,1.0
+R: Party affiliation: Belgium/ Flanders BE-FLA (BE_PRTY),R: Party affiliation: Belgium/ Flanders BE-FLA (BE_PRTY),NA,NA,V265,NA,NA,1.0
+R: Party affiliation: Great Britain GB-GBN (GB_PRTY),R: Party affiliation: Great Britain GB-GBN (GB_PRTY),NA,NA,V266,NA,NA,1.0
+R: Party affiliation: Hungary (HU_PRTY),R: Party affiliation: Hungary (HU_PRTY),NA,NA,V267,NA,NA,1.0
+R: Party affiliation: Israel (IL_PRTY),R: Party affiliation: Israel (IL_PRTY),NA,NA,V268,NA,NA,1.0
+R: Party affiliation: Ireland (IE_PRTY),R: Party affiliation: Ireland (IE_PRTY),NA,NA,V269,NA,NA,1.0
+R: Party affiliation: Japan (JP_PRTY),R: Party affiliation: Japan (JP_PRTY),NA,NA,V270,NA,NA,1.0
+R: Party affiliation: Latvia (LV_PRTY),R: Party affiliation: Latvia (LV_PRTY),NA,NA,V271,NA,NA,1.0
+R: Party affiliation: Mexico (MX_PRTY),R: Party affiliation: Mexico (MX_PRTY),NA,NA,V272,NA,NA,1.0
+R: Party affiliation: Norway (NO_PRTY),R: Party affiliation: Norway (NO_PRTY),NA,NA,V273,NA,NA,1.0
+R: Party affiliation: Netherlands (NL_PRTY),R: Party affiliation: Netherlands (NL_PRTY),NA,NA,V274,NA,NA,1.0
+R: Party affiliation: New Zealand (NZ_PRTY),R: Party affiliation: New Zealand (NZ_PRTY),NA,NA,V275,NA,NA,1.0
+R: Party affiliation: Portugal (PT_PRTY),R: Party affiliation: Portugal (PT_PRTY),NA,NA,V276,NA,NA,1.0
+R: Party affiliation: Poland (PL_PRTY),R: Party affiliation: Poland (PL_PRTY),NA,NA,V277,NA,NA,1.0
+R: Party affiliation: Chile (CL_PRTY),R: Party affiliation: Chile (CL_PRTY),NA,NA,V278,NA,NA,1.0
+R: Party affiliation: Philippines (PH_PRTY),R: Party affiliation: Philippines (PH_PRTY),NA,NA,V279,NA,NA,1.0
+R: Party affiliation: Russia (RU_PRTY),R: Party affiliation: Russia (RU_PRTY),NA,NA,V280,NA,NA,1.0
+R: Party affiliation: Sweden (SE_PRTY),R: Party affiliation: Sweden (SE_PRTY),NA,NA,V281,NA,NA,1.0
+R: Party affiliation: Finland (FI_PRTY),R: Party affiliation: Finland (FI_PRTY),NA,NA,V282,NA,NA,1.0
+R: Party affiliation: Slovakia (SK_PRTY),R: Party affiliation: Slovakia (SK_PRTY),NA,NA,V283,NA,NA,1.0
+R: Party affiliation: Slovenia (SI_PRTY),R: Party affiliation: Slovenia (SI_PRTY),NA,NA,V284,NA,NA,1.0
+R: Party affiliation: Taiwan (TW_PRTY),R: Party affiliation: Taiwan (TW_PRTY),NA,NA,V285,NA,NA,1.0
+R: Party affiliation: USA (US_PRTY),R: Party affiliation: USA (US_PRTY),NA,NA,V286,NA,NA,1.0
+"R: Vote last election: yes, no (VOTE_LE)","R: Vote last election: yes, no (VOTE_LE)",NA,NA,V287,NA,NA,1.0
+R: Religious denomination (RELIG),R: Religious denomination (RELIG),NA,NA,V288,NA,NA,1.0
+R: Religious main groups (derived) (RELIGGRP),R: Religious main groups (derived) (RELIGGRP),NA,NA,V289,NA,NA,1.0
+Region: Austria (AT_REG),Region: Austria (AT_REG),NA,NA,V292,NA,NA,1.0
+Region: Australia (AU_REG),Region: Australia (AU_REG),NA,NA,V293,NA,NA,1.0
+Region: Bulgaria (BG_REG),Region: Bulgaria (BG_REG),NA,NA,V294,NA,NA,1.0
+Region: Brazil (BR_REG),Region: Brazil (BR_REG),NA,NA,V295,NA,NA,1.0
+Region: Switzerland (CH_REG),Region: Switzerland (CH_REG),NA,NA,V296,NA,NA,1.0
+Region: Cyprus (CY_REG),Region: Cyprus (CY_REG),NA,NA,V297,NA,NA,1.0
+Region: Czech Republic (CZ_REG),Region: Czech Republic (CZ_REG),NA,NA,V298,NA,NA,1.0
+Region: Germany (DE_REG),Region: Germany (DE_REG),NA,NA,V299,NA,NA,1.0
+Region: Denmark (DK_REG),Region: Denmark (DK_REG),NA,NA,V300,NA,NA,1.0
+Region: Spain (ES_REG),Region: Spain (ES_REG),NA,NA,V301,NA,NA,1.0
+Region: France (FR_REG),Region: France (FR_REG),NA,NA,V302,NA,NA,1.0
+Region: Belgium/ Flanders BE-FLA (BE_REG),Region: Belgium/ Flanders BE-FLA (BE_REG),NA,NA,V303,NA,NA,1.0
+Region: Great Britain + Northern Ireland (GB_REG),Region: Great Britain + Northern Ireland (GB_REG),NA,NA,V304,NA,NA,1.0
+Region: Hungary (HU_REG),Region: Hungary (HU_REG),NA,NA,V305,NA,NA,1.0
+Region: Israel (IL_REG),Region: Israel (IL_REG),NA,NA,V306,NA,NA,1.0
+Region: Ireland (IE_REG),Region: Ireland (IE_REG),NA,NA,V307,NA,NA,1.0
+Region: Japan (JP_REG),Region: Japan (JP_REG),NA,NA,V308,NA,NA,1.0
+Region: Latvia (LV_REG),Region: Latvia (LV_REG),NA,NA,V309,NA,NA,1.0
+Region: Mexico (MX_REG),Region: Mexico (MX_REG),NA,NA,V310,NA,NA,1.0
+Region: Norway (NO_REG),Region: Norway (NO_REG),NA,NA,V311,NA,NA,1.0
+Region: Netherlands (NL_REG),Region: Netherlands (NL_REG),NA,NA,V312,NA,NA,1.0
+Region: New Zealand (NZ_REG),Region: New Zealand (NZ_REG),NA,NA,V313,NA,NA,1.0
+Region: Portugal (PT_REG),Region: Portugal (PT_REG),NA,NA,V314,NA,NA,1.0
+Region: Poland (PL_REG),Region: Poland (PL_REG),NA,NA,V315,NA,NA,1.0
+Region: Chile (CL_REG),Region: Chile (CL_REG),NA,NA,V316,NA,NA,1.0
+Region: Philippines (PH_REG),Region: Philippines (PH_REG),NA,NA,V317,NA,NA,1.0
+Region: Russia (RU_REG),Region: Russia (RU_REG),NA,NA,V318,NA,NA,1.0
+Region: Sweden (SE_REG),Region: Sweden (SE_REG),NA,NA,V319,NA,NA,1.0
+Region: Finland (FI_REG),Region: Finland (FI_REG),NA,NA,V320,NA,NA,1.0
+Region: Slovakia (SK_REG),Region: Slovakia (SK_REG),NA,NA,V321,NA,NA,1.0
+Region: Slovenia (SI_REG),Region: Slovenia (SI_REG),NA,NA,V322,NA,NA,1.0
+Region: Taiwan (TW_REG),Region: Taiwan (TW_REG),NA,NA,V323,NA,NA,1.0
+Region: USA (US_REG),Region: USA (US_REG),NA,NA,V324,NA,NA,1.0
+Size of community: Austria (AT_SIZE),Size of community: Austria (AT_SIZE),NA,NA,V325,NA,NA,1.0
+Size of community: Australia (AU_SIZE),Size of community: Australia (AU_SIZE),NA,NA,V326,NA,NA,1.0
+Size of community: Bulgaria (BG_SIZE),Size of community: Bulgaria (BG_SIZE),NA,NA,V327,NA,NA,1.0
+Size of community: Brazil (BR_SIZE),Size of community: Brazil (BR_SIZE),NA,NA,V328,NA,NA,1.0
+Size of community: Switzerland (CH_SIZE),Size of community: Switzerland (CH_SIZE),NA,NA,V329,NA,NA,1.0
+Size of community: Cyprus (CY_SIZE),Size of community: Cyprus (CY_SIZE),NA,NA,V330,NA,NA,1.0
+Size of community: Czech Republic (CZ_SIZE),Size of community: Czech Republic (CZ_SIZE),NA,NA,V331,NA,NA,1.0
+Size of community: Germany (DE_SIZE),Size of community: Germany (DE_SIZE),NA,NA,V332,NA,NA,1.0
+Size of community: Denmark (DK_SIZE),Size of community: Denmark (DK_SIZE),NA,NA,V333,NA,NA,1.0
+Size of community: Spain (ES_SIZE),Size of community: Spain (ES_SIZE),NA,NA,V334,NA,NA,1.0
+Size of community: France (FR_SIZE),Size of community: France (FR_SIZE),NA,NA,V335,NA,NA,1.0
+Size of community: Belgium/ Flanders BE-FLA (BE_SIZE),Size of community: Belgium/ Flanders BE-FLA (BE_SIZE),NA,NA,V336,NA,NA,1.0
+Size of community: Great Britain GB-GBN (GB_SIZE),Size of community: Great Britain GB-GBN (GB_SIZE),NA,NA,V337,NA,NA,1.0
+Size of community: Hungary (HU_SIZE),Size of community: Hungary (HU_SIZE),NA,NA,V338,NA,NA,1.0
+Size of community: Israel (IL_SIZE),Size of community: Israel (IL_SIZE),NA,NA,V339,NA,NA,1.0
+Size of community: Ireland (IE_SIZE),Size of community: Ireland (IE_SIZE),NA,NA,V340,NA,NA,1.0
+Size of community: Japan (JP_SIZE),Size of community: Japan (JP_SIZE),NA,NA,V341,NA,NA,1.0
+Size of community: Latvia (LV_SIZE),Size of community: Latvia (LV_SIZE),NA,NA,V342,NA,NA,1.0
+Size of community: Mexico (MX_SIZE),Size of community: Mexico (MX_SIZE),NA,NA,V343,NA,NA,1.0
+Size of community: Norway (NO_SIZE),Size of community: Norway (NO_SIZE),NA,NA,V344,NA,NA,1.0
+Size of community: Netherlands (NL_SIZE),Size of community: Netherlands (NL_SIZE),NA,NA,V345,NA,NA,1.0
+Size of community: New Zealand (NZ_SIZE),Size of community: New Zealand (NZ_SIZE),NA,NA,V346,NA,NA,1.0
+Size of community: Portugal (PT_SIZE),Size of community: Portugal (PT_SIZE),NA,NA,V347,NA,NA,1.0
+Size of community: Poland (PL_SIZE),Size of community: Poland (PL_SIZE),NA,NA,V348,NA,NA,1.0
+Size of community: Chile (CL_SIZE),Size of community: Chile (CL_SIZE),NA,NA,V349,NA,NA,1.0
+Size of community: Philippines (PH_SIZE),Size of community: Philippines (PH_SIZE),NA,NA,V350,NA,NA,1.0
+Size of community: Russia (RU_SIZE),Size of community: Russia (RU_SIZE),NA,NA,V351,NA,NA,1.0
+Size of community: Sweden (SE_SIZE),Size of community: Sweden (SE_SIZE),NA,NA,V352,NA,NA,1.0
+Size of community: Finland (FI_SIZE),Size of community: Finland (FI_SIZE),NA,NA,V353,NA,NA,1.0
+Size of community: Slovakia (SK_SIZE),Size of community: Slovakia (SK_SIZE),NA,NA,V354,NA,NA,1.0
+Size of community: Slovenia (SI_SIZE),Size of community: Slovenia (SI_SIZE),NA,NA,V355,NA,NA,1.0
+Size of community: Taiwan (TW_SIZE),Size of community: Taiwan (TW_SIZE),NA,NA,V356,NA,NA,1.0
+Size of community: USA (US_SIZE),Size of community: USA (US_SIZE),NA,NA,V357,NA,NA,1.0
+Type of community: urban-rural self-ass (URBRURAL),Type of community: urban-rural self-ass (URBRURAL),NA,NA,V358,NA,NA,1.0
+"Family origin, ethnic group, identity (ETHNIC)","Family origin, ethnic group, identity (ETHNIC)",NA,NA,V359,NA,NA,1.0
+Q2a Women or Men more responsibility for home and family,NA,NA,Q2a Women or Men more responsibility for home and family,NA,NA,v7,1.0
+Q2b Mother or father better suited to look after children,NA,NA,Q2b Mother or father better suited to look after children,NA,NA,v8,1.0
+Q5b Single father can raise child as well,NA,NA,Q5b Single father can raise child as well,NA,NA,v16,1.0
+"Q7a Mother, father: who should provide for family financially",NA,NA,"Q7a Mother, father: who should provide for family financially",NA,NA,v20,1.0
+"Q7b Mother, father: who should take care of child on daily basis",NA,NA,"Q7b Mother, father: who should take care of child on daily basis",NA,NA,v21,1.0
+"Q7c Mother, father: who should play with child, and take part in leisure activities",NA,NA,"Q7c Mother, father: who should play with child, and take part in leisure activities",NA,NA,v22,1.0
+"Q7d Mother, father: who should teach child how to behave",NA,NA,"Q7d Mother, father: who should teach child how to behave",NA,NA,v23,1.0
+"Q7e Mother, father: who should take time to listen to and advise child if problems",NA,NA,"Q7e Mother, father: who should take time to listen to and advise child if problems",NA,NA,v24,1.0
+"Q7f Mother, father: who should try to be role model for the child",NA,NA,"Q7f Mother, father: who should try to be role model for the child",NA,NA,v25,1.0
+Q18b Division of household work: plan social/family activities,NA,NA,Q18b Division of household work: plan social/family activities,NA,NA,v40,1.0
+Q21 Who is considered a close relative,NA,NA,Q21 Who is considered a close relative,NA,NA,v50,1.0
+Q22a Obligation to host sibling for some months,NA,NA,Q22a Obligation to host sibling for some months,NA,NA,v51,1.0
+Q22b Obligation to let widowed father move in,NA,NA,Q22b Obligation to let widowed father move in,NA,NA,v52,1.0
+Q23 Obligation to provide temporary financial support for grandchild,NA,NA,Q23 Obligation to provide temporary financial support for grandchild,NA,NA,v53,1.0
+Q24 Rely more on close relatives or close friends,NA,NA,Q24 Rely more on close relatives or close friends,NA,NA,v54,1.0
+Q25 Close relatives or close friends most important people,NA,NA,Q25 Close relatives or close friends most important people,NA,NA,v55,1.0
+Q27a Men or women better suited: cabinet in national government,NA,NA,Q27a Men or women better suited: cabinet in national government,NA,NA,v57,1.0
+Q27b Women or men better suited: head of university,NA,NA,Q27b Women or men better suited: head of university,NA,NA,v58,1.0
+Q27c Men or women better suited: senior executive of large company,NA,NA,Q27c Men or women better suited: senior executive of large company,NA,NA,v59,1.0
+Q28a How difficult to make ends meet from total household's income,NA,NA,Q28a How difficult to make ends meet from total household's income,NA,NA,v60,1.0
+Q28b Current financial situation of household compared to 12 months ago,NA,NA,Q28b Current financial situation of household compared to 12 months ago,NA,NA,v61,1.0
+Q29 Highest completed degree of education for spouse/partner [merged variable],NA,NA,Q29 Highest completed degree of education for spouse/partner [merged variable],NA,NA,v62,1.0
+Q30 How many children have you ever had,NA,NA,Q30 How many children have you ever had,NA,NA,v63,1.0
+O31a Provide care: child(ren) below school age,NA,NA,O31a Provide care: child(ren) below school age,NA,NA,v64,1.0
+"O31b Provide care: child(ren) of school age, up to 18",NA,NA,"O31b Provide care: child(ren) of school age, up to 18",NA,NA,v65,1.0
+O31c Provide care: elderly person(s),NA,NA,O31c Provide care: elderly person(s),NA,NA,v66,1.0
+O31d Provide care: long term sick/disabled person(s),NA,NA,O31d Provide care: long term sick/disabled person(s),NA,NA,v67,1.0
+O31e Provide care: other person(s),NA,NA,O31e Provide care: other person(s),NA,NA,v68,1.0
+O32 Involvement of mother and father in R's upbringing,NA,NA,O32 Involvement of mother and father in R's upbringing,NA,NA,v69,1.0
+O33a Mother: acceptance of R's plans to work for pay,NA,NA,O33a Mother: acceptance of R's plans to work for pay,NA,NA,v70,1.0
+O33b Father: acceptance of R's plans to work for pay,NA,NA,O33b Father: acceptance of R's plans to work for pay,NA,NA,v71,1.0
+O34 R's and spouse's/partner's involvement in upbringing of children,NA,NA,O34 R's and spouse's/partner's involvement in upbringing of children,NA,NA,v72,1.0
+Years of full-time schooling,NA,NA,Years of full-time schooling,NA,NA,EDUCYRS,1.0
+ISCED 2011: highest completed degree of education [merged variable],NA,NA,ISCED 2011: highest completed degree of education [merged variable],NA,NA,ISCED,1.0
+ISCED 2011 simplified: highest completed degree of education,NA,NA,ISCED 2011 simplified: highest completed degree of education,NA,NA,EDULEVEL,1.0
+Country specific highest completed degree of education of spouse/ partner: Austria,NA,NA,Country specific highest completed degree of education of spouse/ partner: Austria,NA,NA,AT_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Australia,NA,NA,Country specific highest completed degree of education of spouse/ partner: Australia,NA,NA,AU_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Bulgaria,NA,NA,Country specific highest completed degree of education of spouse/ partner: Bulgaria,NA,NA,BG_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Switzerland,NA,NA,Country specific highest completed degree of education of spouse/ partner: Switzerland,NA,NA,CH_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Czech Republic,NA,NA,Country specific highest completed degree of education of spouse/ partner: Czech Republic,NA,NA,CZ_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Denmark,NA,NA,Country specific highest completed degree of education of spouse/ partner: Denmark,NA,NA,DK_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Spain,NA,NA,Country specific highest completed degree of education of spouse/ partner: Spain,NA,NA,ES_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Finland,NA,NA,Country specific highest completed degree of education of spouse/ partner: Finland,NA,NA,FI_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: France,NA,NA,Country specific highest completed degree of education of spouse/ partner: France,NA,NA,FR_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Greece,NA,NA,Country specific highest completed degree of education of spouse/ partner: Greece,NA,NA,GR_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Croatia,NA,NA,Country specific highest completed degree of education of spouse/ partner: Croatia,NA,NA,HR_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Hungary,NA,NA,Country specific highest completed degree of education of spouse/ partner: Hungary,NA,NA,HU_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Israel,NA,NA,Country specific highest completed degree of education of spouse/ partner: Israel,NA,NA,IL_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: India,NA,NA,Country specific highest completed degree of education of spouse/ partner: India,NA,NA,IN_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Italy,NA,NA,Country specific highest completed degree of education of spouse/ partner: Italy,NA,NA,IT_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Japan,NA,NA,Country specific highest completed degree of education of spouse/ partner: Japan,NA,NA,JP_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Lithuania,NA,NA,Country specific highest completed degree of education of spouse/ partner: Lithuania,NA,NA,LT_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Netherlands,NA,NA,Country specific highest completed degree of education of spouse/ partner: Netherlands,NA,NA,NL_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Norway,NA,NA,Country specific highest completed degree of education of spouse/ partner: Norway,NA,NA,NO_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: New Zealand,NA,NA,Country specific highest completed degree of education of spouse/ partner: New Zealand,NA,NA,NZ_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Philippines,NA,NA,Country specific highest completed degree of education of spouse/ partner: Philippines,NA,NA,PH_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Poland,NA,NA,Country specific highest completed degree of education of spouse/ partner: Poland,NA,NA,PL_SPISCD,1.0
+Country specific highest completed degree of education of spouse/ partner: Thailand,NA,NA,Country specific highest completed degree of education of spouse/ partner: Thailand,NA,NA,TH_SPISCD,1.0
+ISCED 2011: highest completed degree of education of spouse/ partner [merged variable],NA,NA,ISCED 2011: highest completed degree of education of spouse/ partner [merged variable],NA,NA,SPISCED,1.0
+ISCED 2011 simplified: highest completed degree of education of spouse/ partner,NA,NA,ISCED 2011 simplified: highest completed degree of education of spouse/ partner,NA,NA,SPEDULEV,1.0
+Comparative: groups of religious affiliations,NA,NA,Comparative: groups of religious affiliations,NA,NA,RELIGGRP,1.0
+Country specific ethnic group 1: Austria,NA,NA,Country specific ethnic group 1: Austria,NA,NA,AT_ETHN1,1.0
+Country specific ethnic group 2: Austria,NA,NA,Country specific ethnic group 2: Austria,NA,NA,AT_ETHN2,1.0
+Country specific ethnic group 1: Australia,NA,NA,Country specific ethnic group 1: Australia,NA,NA,AU_ETHN1,1.0
+Country specific ethnic group 2: Australia,NA,NA,Country specific ethnic group 2: Australia,NA,NA,AU_ETHN2,1.0
+Country specific ethnic group 1: Bulgaria,NA,NA,Country specific ethnic group 1: Bulgaria,NA,NA,BG_ETHN1,1.0
+Country specific ethnic group 2: Bulgaria,NA,NA,Country specific ethnic group 2: Bulgaria,NA,NA,BG_ETHN2,1.0
+Country specific ethnic group 1: Switzerland,NA,NA,Country specific ethnic group 1: Switzerland,NA,NA,CH_ETHN1,1.0
+Country specific ethnic group 2: Switzerland,NA,NA,Country specific ethnic group 2: Switzerland,NA,NA,CH_ETHN2,1.0
+Country specific ethnic group 1: Czech Republic,NA,NA,Country specific ethnic group 1: Czech Republic,NA,NA,CZ_ETHN1,1.0
+Country specific ethnic group 2: Czech Republic,NA,NA,Country specific ethnic group 2: Czech Republic,NA,NA,CZ_ETHN2,1.0
+Country specific ethnic group 1: Germany,NA,NA,Country specific ethnic group 1: Germany,NA,NA,DE_ETHN1,1.0
+Country specific ethnic group 2: Germany,NA,NA,Country specific ethnic group 2: Germany,NA,NA,DE_ETHN2,1.0
+Country specific ethnic group 1: Denmark,NA,NA,Country specific ethnic group 1: Denmark,NA,NA,DK_ETHN1,1.0
+Country specific ethnic group 2: Denmark,NA,NA,Country specific ethnic group 2: Denmark,NA,NA,DK_ETHN2,1.0
+Country specific ethnic group 1: Spain,NA,NA,Country specific ethnic group 1: Spain,NA,NA,ES_ETHN1,1.0
+Country specific ethnic group 2: Spain,NA,NA,Country specific ethnic group 2: Spain,NA,NA,ES_ETHN2,1.0
+Country specific ethnic group 1: Finland,NA,NA,Country specific ethnic group 1: Finland,NA,NA,FI_ETHN1,1.0
+Country specific ethnic group 2: Finland,NA,NA,Country specific ethnic group 2: Finland,NA,NA,FI_ETHN2,1.0
+Country specific ethnic group 1: France,NA,NA,Country specific ethnic group 1: France,NA,NA,FR_ETHN1,1.0
+Country specific ethnic group 2: France,NA,NA,Country specific ethnic group 2: France,NA,NA,FR_ETHN2,1.0
+Country specific ethnic group 1: Greece,NA,NA,Country specific ethnic group 1: Greece,NA,NA,GR_ETHN1,1.0
+Country specific ethnic group 2: Greece,NA,NA,Country specific ethnic group 2: Greece,NA,NA,GR_ETHN2,1.0
+Country specific ethnic group 1: Croatia,NA,NA,Country specific ethnic group 1: Croatia,NA,NA,HR_ETHN1,1.0
+Country specific ethnic group 2: Croatia,NA,NA,Country specific ethnic group 2: Croatia,NA,NA,HR_ETHN2,1.0
+Country specific ethnic group 1: Hungary,NA,NA,Country specific ethnic group 1: Hungary,NA,NA,HU_ETHN1,1.0
+Country specific ethnic group 2: Hungary,NA,NA,Country specific ethnic group 2: Hungary,NA,NA,HU_ETHN2,1.0
+Country specific ethnic group 1: Israel,NA,NA,Country specific ethnic group 1: Israel,NA,NA,IL_ETHN1,1.0
+Country specific ethnic group 2: Israel,NA,NA,Country specific ethnic group 2: Israel,NA,NA,IL_ETHN2,1.0
+Country specific ethnic group 2: Iceland,NA,NA,Country specific ethnic group 2: Iceland,NA,NA,IS_ETHN2,1.0
+Country specific ethnic group 1: Italy,NA,NA,Country specific ethnic group 1: Italy,NA,NA,IT_ETHN1,1.0
+Country specific ethnic group 2: Italy,NA,NA,Country specific ethnic group 2: Italy,NA,NA,IT_ETHN2,1.0
+Country specific ethnic group 2: Japan,NA,NA,Country specific ethnic group 2: Japan,NA,NA,JP_ETHN2,1.0
+Country specific ethnic group 2: Lithuania,NA,NA,Country specific ethnic group 2: Lithuania,NA,NA,LT_ETHN2,1.0
+Country specific ethnic group 2: Netherlands,NA,NA,Country specific ethnic group 2: Netherlands,NA,NA,NL_ETHN2,1.0
+Country specific ethnic group 2: Norway,NA,NA,Country specific ethnic group 2: Norway,NA,NA,NO_ETHN2,1.0
+Country specific ethnic group 1: New Zealand,NA,NA,Country specific ethnic group 1: New Zealand,NA,NA,NZ_ETHN1,1.0
+Country specific ethnic group 2: New Zealand,NA,NA,Country specific ethnic group 2: New Zealand,NA,NA,NZ_ETHN2,1.0
+Country specific ethnic group 2: Philippines,NA,NA,Country specific ethnic group 2: Philippines,NA,NA,PH_ETHN2,1.0
+Country specific ethnic group 2: Poland,NA,NA,Country specific ethnic group 2: Poland,NA,NA,PL_ETHN2,1.0
+Country specific ethnic group 2: Russia,NA,NA,Country specific ethnic group 2: Russia,NA,NA,RU_ETHN2,1.0
+Country specific ethnic group 2: Slovenia,NA,NA,Country specific ethnic group 2: Slovenia,NA,NA,SI_ETHN2,1.0
+Country specific ethnic group 2: Slovakia,NA,NA,Country specific ethnic group 2: Slovakia,NA,NA,SK_ETHN2,1.0
+Country specific ethnic group 1: Thailand,NA,NA,Country specific ethnic group 1: Thailand,NA,NA,TH_ETHN1,1.0
+Country specific ethnic group 2: Thailand,NA,NA,Country specific ethnic group 2: Thailand,NA,NA,TH_ETHN2,1.0
+Country specific ethnic group 2: Taiwan,NA,NA,Country specific ethnic group 2: Taiwan,NA,NA,TW_ETHN2,1.0
+Country specific ethnic group 2: South Africa,NA,NA,Country specific ethnic group 2: South Africa,NA,NA,ZA_ETHN2,1.0
+How many adults in household,NA,NA,How many adults in household,NA,NA,HHADULT,1.0
+How many children above school entry age in household,NA,NA,How many children above school entry age in household,NA,NA,HHCHILDR,1.0
+How many children below school age in household,NA,NA,How many children below school age in household,NA,NA,HHTODD,1.0
+Father's country of birth,NA,NA,Father's country of birth,NA,NA,F_BORN,1.0
+Mother's country of birth,NA,NA,Mother's country of birth,NA,NA,M_BORN,1.0
+Language of the interview,NA,NA,Language of the interview,NA,NA,INTLANG,1.0
+Design weight - household samples,NA,NA,Design weight - household samples,NA,NA,DWEIGHT_HH,1.0
+Design weight - target stratification,NA,NA,Design weight - target stratification,NA,NA,DWEIGHT_TS,1.0
+HH + TS combination of all design aspects,NA,NA,HH + TS combination of all design aspects,NA,NA,DWEIGHT_COM,1.0
+Post-stratification weight,NA,NA,Post-stratification weight,NA,NA,PSWEIGHT,1.0
+Combination of all weights,NA,NA,Combination of all weights,NA,NA,WEIGHT_COM,1.0
+Flag variable indicating partially completed interviews,NA,NA,Flag variable indicating partially completed interviews,NA,NA,PARTIALS,1.0

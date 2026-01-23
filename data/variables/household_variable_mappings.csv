@@ -1,0 +1,48 @@
+question,question_02,question_12,question_22,2002,2012,2022,score
+Q1a Working mom: warm relationship with children as a not working mom,NA,Q1a Working mom: warm relationship with children as a not working mom,Q1a Working mom can establish as warm relationship as a not working mom,NA,V5,v1,0.777
+Q1b Workg mom: pre school child suffers,Q1b Workg mom: pre school child suffers,Q1b Working mom: Preschool child is likely to suffer,Q1b Pre-school child is likely to suffer if mother works,V5,V6,v2,0.711
+Q1c Family life suffers when woman has full-time job,NA,Q1c Working woman: Family life suffers when woman has full-time job,Q1c Family life suffers when woman has full-time job,NA,V7,v3,0.881
+Q1d What women really want is home & kids,Q1d What women really want is home & kids,Q1d Working woman: What women really want is home and kids,Q1d What women really want is home and kids,V7,V8,v4,0.875
+Q1e Being housewife is as fulfilling as working for pay,NA,Q1e Working woman: Being housewife is as fulfilling as working for pay,Q1e Being housewife is as fulfilling as working for pay,NA,V9,v5,0.887
+Q2a Both should contribute to hh income,Q2a Both should contribute to hh income,Q2a Both should contribute to household income,NA,V10,V10,NA,0.918
+"Q2b Men's job earn money, women's job look after home",NA,"Q2b Men's job earn money, women's job look after home","Q1f Men's job earn money, women's job look after home",NA,V11,v6,0.962
+Q3a Should women work: Child under school age,NA,Q3a Should women work: Child under school age,NA,NA,V12,NA,1.0
+Q3b Should women work: Youngest kid at school,NA,Q3b Should women work: Youngest kid at school,NA,NA,V13,NA,1.0
+Q11a Child under school age: Best parental childcare option,NA,Q11a Child under school age: Best parental childcare option,Q10a Child under school age: best parental childcare option,NA,V31,v28,0.983
+Q11b Child under school age: Least desirable parental childcare,NA,Q11b Child under school age: Least desirable parental childcare,Q10b Child under school age: least desirable parental childcare,NA,V32,v29,0.984
+Q12 Child under school age: Provider of childcare,NA,Q12 Child under school age: Provider of childcare,Q11 Child under school age: provider of childcare,NA,V33,v30,0.979
+Q13 Child under school age: Covering childcare costs,NA,Q13 Child under school age: Covering childcare costs,Q12 Child under school age: covering childcare costs,NA,V34,v31,0.98
+Q9a How many hours do you spend on hh work,Q9a How many hours do you spend on hh work,Q16a How many hours spend on household work,Q15a How many hours spend on household work,V36,V37,v34,0.859
+Q16b How many hours spend on family members,NA,Q16b How many hours spend on family members,Q15b How many hours spend on family members,NA,V38,v35,0.977
+"Q9b How many hrs spouse,partner works on hh","Q9b How many hrs spouse,partner works on hh","Q17a How many hours spouse, partner works on household","Q16a How many hours spouse, partner works on household",V37,V39,v36,0.896
+Q8a Division of hh work: doing the laundry,Q8a Division of hh work: doing the laundry,Q19a Division of household work: Doing the laundry,Q18a Division of household work: doing the laundry,V30,V42,v39,0.927
+Q8b Division of hh work: small repairs,Q8b Division of hh work: small repairs,Q19b Division of household work: Small repairs,Q18f Division of household work: preparing meals,V31,V43,v44,0.784
+Q8c Div. hh work:care f sick fam.members,Q8c Div. hh work:care f sick fam.members,Q19c Division of household work: Care for sick family members,Q18c Division of household work: care for sick family members,V32,V44,v41,0.846
+Q8d Division of hh work:shops f groceries,Q8d Division of hh work:shops f groceries,Q19d Division of household work: Shops for groceries,Q18d Division of household work: shops for groceries,V33,V45,v42,0.914
+Q8e Division of hh work: hh cleaning,Q8e Division of hh work: hh cleaning,Q19e Division of household work: Household cleaning,Q18e Division of household work: household cleaning,V34,V46,v43,0.868
+Q8f Division of hh work: preparg the meal,Q8f Division of hh work: preparg the meal,Q19f Division of household work: Preparing meals,NA,V35,V47,NA,0.805
+Q10 Sharing of hh work between the partners,Q10 Sharing of hh work between the partners,Q20 Sharing of household work between partners,Q19 Sharing of household work between partners,V38,V48,v45,0.888
+Q16a Too tired from work to do duties at home,Q16a Too tired from work to do duties at home,Q23a Too tired from work to do duties at home,Q20a Too tired from work to do duties at home,V48,V51,v46,0.963
+Q16b Difficult to fulfil fam.responsibility,Q16b Difficult to fulfil fam.responsibility,Q23b Difficult to fulfill family responsibility,Q20b Difficult to fulfill family responsibilities,V49,V52,v47,0.906
+Q16c Too tired from hhwork to function i job,Q16c Too tired from hhwork to function i job,Q23c Too tired from hh work to function in job,Q20c Too tired from household work to function in job,V50,V53,v48,0.903
+Q1a Workg mom: warm relation child ok,Q1a Workg mom: warm relation child ok,NA,NA,V4,NA,NA,1.0
+Q1c Workg woman: family life suffers,Q1c Workg woman: family life suffers,NA,NA,V6,NA,NA,1.0
+Q1e Household satisfies as much as paid job,Q1e Household satisfies as much as paid job,NA,NA,V8,NA,NA,1.0
+Q1f Work is best for women's independence,Q1f Work is best for women's independence,NA,NA,V9,NA,NA,1.0
+"Q2b Men's job is work,women's job household","Q2b Men's job is work,women's job household",NA,NA,V11,NA,NA,1.0
+Q2c Men should do larger share of hh work,Q2c Men should do larger share of hh work,NA,NA,V12,NA,NA,1.0
+Q2d Men should do larger share of childcare,Q2d Men should do larger share of childcare,NA,NA,V13,NA,NA,1.0
+Q11 How often disagree abt sharg of hh work,Q11 How often disagree abt sharg of hh work,NA,NA,V39,NA,NA,1.0
+Q12 Who makes decisions how to raise kids,Q12 Who makes decisions how to raise kids,NA,NA,V40,NA,NA,1.0
+Q13a Final say: choosing weekend activities,Q13a Final say: choosing weekend activities,NA,NA,V41,NA,NA,1.0
+Q13b Final say: buying major things for home,Q13b Final say: buying major things for home,NA,NA,V42,NA,NA,1.0
+Q16d Difficult to concentrate at work,Q16d Difficult to concentrate at work,NA,NA,V51,NA,NA,1.0
+Q21a R worked outside: before R has children,Q21a R worked outside: before R has children,NA,NA,V56,NA,NA,1.0
+Q21b R worked outside: kid under school age,Q21b R worked outside: kid under school age,NA,NA,V57,NA,NA,1.0
+Q21c R worked outside:youngest kid at school,Q21c R worked outside:youngest kid at school,NA,NA,V58,NA,NA,1.0
+Q22a Spouse worked outside:before children,Q22a Spouse worked outside:before children,NA,NA,V60,NA,NA,1.0
+Q22b Sp. work outside: kid under school age,Q22b Sp. work outside: kid under school age,NA,NA,V61,NA,NA,1.0
+Q22c Sp. work outside: young. kid at school,Q22c Sp. work outside: young. kid at school,NA,NA,V62,NA,NA,1.0
+Q2a Women or Men more responsibility for home and family,NA,NA,Q2a Women or Men more responsibility for home and family,NA,NA,v7,1.0
+Q2b Mother or father better suited to look after children,NA,NA,Q2b Mother or father better suited to look after children,NA,NA,v8,1.0
+Q18b Division of household work: plan social/family activities,NA,NA,Q18b Division of household work: plan social/family activities,NA,NA,v40,1.0

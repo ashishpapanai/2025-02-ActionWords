@@ -1,0 +1,13 @@
+0. get the data for the year 2002 and mark all the questions in 2002, 2012, 2022
+1. look at all the questionaire questions and do basic EDA
+2. overall analysis of how much household work do women do
+    - difference in household work done by working women vs non-working women vs women who used to work but now no longer do
+    - working women partner support vs non-working women partner support
+3. overall analysis of how much household work do men do
+    - difference in household work done by working men vs non-working men vs men who used to work but now no longer do
+    - working men partner support vs non-working men partner support
+4. do men do more household work which are "public" and can be seen by people?
+5. how do the above analysis differ by generation
+6. how do the above analysis differ by region
+7. how does the evolution of the above analysis look over the years
+8. what is the generation trend? the same generation across the years - did they change their attitude or did they stick to it
