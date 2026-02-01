@@ -1,6 +1,6 @@
-# *.dta
+*.dta
 *.sav
-*.txt
+# *.txt
 *.pdf
 *.por
 *.zip
