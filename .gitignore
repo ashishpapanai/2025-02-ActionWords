@@ -1,7 +1,7 @@
 *.dta
 *.sav
 # *.txt
-*.pdf
+# *.pdf
 *.por
 *.zip
 **/__pycache__
