@@ -1,0 +1,561 @@
+%%%%%%%% DATA LITERACY 2025 LATEX PROJECT TEMPLATE FILE %%%%%%%%%%%%%%%%
+%%% Based on the 2025 ICML template, available at https://icml.cc/Conferences/2025/AuthorInstructions %%%
+
+\documentclass{article}
+
+% Recommended, but optional, packages for figures and better typesetting:
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{amssymb}
+% \usepackage{subfigure}
+\usepackage{subcaption}
+\usepackage{booktabs} % for professional tables
+
+\usepackage{tikz}
+% Corporate Design of the University of Tübingen
+% Primary Colors
+\definecolor{TUred}{RGB}{165,30,55}
+\definecolor{TUgold}{RGB}{180,160,105}
+\definecolor{TUdark}{RGB}{50,65,75}
+\definecolor{TUgray}{RGB}{175,179,183}
+
+% Secondary Colors
+\definecolor{TUdarkblue}{RGB}{65,90,140}
+\definecolor{TUblue}{RGB}{0,105,170}
+\definecolor{TUlightblue}{RGB}{80,170,200}
+\definecolor{TUlightgreen}{RGB}{130,185,160}
+\definecolor{TUgreen}{RGB}{125,165,75}
+\definecolor{TUdarkgreen}{RGB}{50,110,30}
+\definecolor{TUocre}{RGB}{200,80,60}
+\definecolor{TUviolet}{RGB}{175,110,150}
+\definecolor{TUmauve}{RGB}{180,160,150}
+\definecolor{TUbeige}{RGB}{215,180,105}
+\definecolor{TUorange}{RGB}{210,150,0}
+\definecolor{TUbrown}{RGB}{145,105,70}
+
+% hyperref makes hyperlinks in the resulting PDF.
+% If your build breaks (sometimes temporarily if a hyperlink spans a page)
+% please comment out the following usepackage line and replace
+% \usepackage{icml2023} with \usepackage[nohyperref]{icml2023} above.
+\usepackage{hyperref}
+
+
+% Attempt to make hyperref and algorithmic work together better:
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+
+\usepackage[accepted]{icml2025}
+
+% For theorems and such
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{amsthm}
+
+% if you use cleveref..
+\usepackage[capitalize,noabbrev]{cleveref}
+
+% Todonotes is useful during development; simply uncomment the next line
+%    and comment out the line below the next line to turn off comments
+%\usepackage[disable,textsize=tiny]{todonotes}
+\usepackage[textsize=tiny]{todonotes}
+
+
+% The \icmltitle you define below is probably too long as a header.
+% Therefore, a short form for the running title is supplied here:
+\icmltitlerunning{Project Report Template for Data Literacy 2025}
+
+\begin{document}
+
+\twocolumn[
+\icmltitle{Do Actions Speak Louder Than Words?}
+
+% It is OKAY to include author information, even for blind
+% submissions: the style file will automatically remove it for you
+% unless you've provided the [accepted] option to the icml2023
+% package.
+
+% List of affiliations: The first argument should be a (short)
+% identifier you will use later to specify author affiliations
+% Academic affiliations should list Department, University, City, Region, Country
+% Industry affiliations should list Company, City, Region, Country
+
+% You can specify symbols, otherwise they are numbered in order.
+% Ideally, you should not use this facility. Affiliations will be numbered
+% in order of appearance and this is the preferred way.
+\icmlsetsymbol{equal}{*}
+
+\begin{icmlauthorlist}
+\icmlauthor{Rashika Kukreja}{equal}
+\icmlauthor{Ashish Papanai}{equal}
+\icmlauthor{Karuna K Chandra}{equal}
+\icmlauthor{Siddharth Pandey}{equal}
+\icmlauthor{Snehil Seenu}{equal}
+\end{icmlauthorlist}
+
+% fill in your matrikelnummer, email address, degree, for each group member
+% \icmlaffiliation{first}{Matrikelnummer 12345678, MSc Machine Learning}
+% \icmlaffiliation{second}{Matrikelnummer 12345678, MSc Computer Science}
+% \icmlaffiliation{third}{Matrikelnummer 12345678, MSc Media Informatics}
+% \icmlaffiliation{fourth}{Matrikelnummer 12345678, MSc Medical Informatics}
+% \icmlaffiliation{fifth}{Matrikelnummer 12345678, MSc QDS}
+
+% put your email addresses here. You can use initials to save space, 
+% e.g. if you are called Max Mustermann, you can use \icmlcorrespondingauthor{MM}{max.mustermann@uni-tuebingen.de}
+% DO USE YOUR UNIVERSITY EMAIL ADDRESS!
+
+% for the Data Literacy report, to save space, you can here list the student email address of one author, who is willing to be contacted about this work in the future (e.g. in case we would like to use your report as an example for future course iterations)
+\icmlcorrespondingauthor{Rashika}{rashika-vinod.kukreja@student.uni-tuebingen.de} 
+% \icmlcorrespondingauthor{Initials2}{first2.last2@uni-tuebingen.de}
+% \icmlcorrespondingauthor{Initials3}{first3.last3@uni-tuebingen.de}
+% \icmlcorrespondingauthor{Initials4}{first4.last4@uni-tuebingen.de}
+% \icmlcorrespondingauthor{Initials5}{first5.last5@uni-tuebingen.de}
+
+% You may provide any keywords that you
+% find helpful for describing your paper; these are used to populate
+% the "keywords" metadata in the PDF but will not be shown in the document
+\icmlkeywords{Machine Learning, ICML}
+
+\vskip 0.3in
+    ]
+
+% this must go after the closing bracket ] following \twocolumn[ ...
+
+% This command actually creates the footnote in the first column
+% listing the affiliations and the copyright notice.
+% The command takes one argument, which is text to display at the start of the footnote.
+% The \icmlEqualContribution command is standard text for equal contribution.
+% Remove it (just {}) if you do not need this facility.
+
+%\printAffiliationsAndNotice{}  % leave blank if no need to mention equal contribution
+\printAffiliationsAndNotice{\icmlEqualContribution} % otherwise use the standard text.
+
+\begin{abstract}
+% Put your abstract here. Abstracts typically start with a sentence motivating why the subject is interesting. Then mention the data, methodology or methods you are working with, and describe results. 
+
+Discussions about gender equality have increased in the past decade leading one to believe that we have made substantial progress towards the achievement of gender equality. But have these changing attitudes truly translated into action or are they merely words? In this study, we assess attitudes and actions towards gender equality using exploratory factor analysis to score perceptions towards gender equality and further use these scores to quantify attitude-behavior (words-action) alignment in spheres of financial control, education, household responsibilities, and childcare.  
+We observe that the translation of egalitarian principles into action is confined to household finances. Other domestic spheres, including labor, show no clear alignment between ideology and practice.
+ Code available on \href{https://github.com/ashishpapanai/2025-02-ActionWords}{GitHub\footnote{\href{https://github.com/ashishpapanai/2025-02-ActionWords}{https://github.com/ashishpapanai/2025-02-ActionWords}}}.
+% [https://github.com/ashishpapanai/2025-02-ActionWords](https://github.com/ashishpapanai/2025-02-ActionWords)
+% Our findings suggest that egalitarian words translate into action only within the sphere of household finances. However, for other areas of interests in a marriage, like domestic labor, family responsibilities, where behavior shows no clear alignment with stated values.
+% We report that despite increasing egalitarian thoughts, the reflection of these words in behavior is associated with only behavior pertaining to household finances while for other variables like domestic labor distribution there is no clear association. 
+% (one sectence for results) (one sentence for significance of result) 
+% There has been a significant increase in the discussion of the issues related to gender equality in the past decade. In some spheres of society, this shift is apparent and has led to a practical change in the lives of people affected by gender discrimination. Women’s representation in public spheres such as education, employment, law and policy making has increased but the gap between men and women is still large. Similarly, in private spheres such as household work, childcare,  and unpaid labour, there is a disconnect between the division of responsibilities of men and women. 
+
+
+\end{abstract}
+
+\section{Introduction}\label{sec:intro}
+
+The global discourse regarding gender equality has intensified significantly over the last several decades, suggesting a transition toward more egalitarian societal norms. However, a fundamental concern persists regarding whether these stated attitudes reflect substantive changes in behavior or remain limited to superficial expressions. Examining how beliefs about gender equality align with actual actions at home is essential for society and the economy, because it helps us understand deep-rooted inequalities and analyse large-scale survey data. Scientifically, the challenge lies in distinguishing genuine attitudinal shifts from behavioural persistence across financial control, household responsibilities, and childcare. 
+
+Existing literature has recorded the impact of gender role beliefs on diverse economic outcomes, including labour market penalties linked to parenthood \cite{hong2025parenthoodpenaltiesacademiachildcare, waszkiewicz2024impactparenthoodlabourmarket} and the differentiation of paid versus unpaid work \cite{https://doi.org/10.1111/soc4.12263}. Research also shows how gender identity norms dictate income distribution within couples \cite{maier2024additivedensityonscalarregressionbayes} and shape expectations in the labour market \cite{calanca2019responsibleteamplayerswanted, calanca2018responsible}. Despite these insights, significant perception gaps remain, particularly regarding the invisible burden of mental load \cite{barigozzi2025timeunveilinginvisibleburden} and inherent differences in the measurement of egalitarianism between men and women \cite{McDaniel01042008}. Previous studies are often limited by cross-sectional designs or a focus on specific sectors, which may fail to capture broader temporal shifts in domestic labor allocation. Furthermore, recent methodologies have attempted to model human behaviour in sociological surveys using computational frameworks or by comparing perceptions against official statistics \cite{wang2025sociobenchmodelinghumanbehavior, bas2024assessinggenderbiasllms}. This study aims to address these gaps by using a harmonised, longitudinal analysis spanning multiple decades to test the convergence hypothesis and evaluate the persistence of the disconnect between ideological discourse and behavioral reality.
+
+We study how egalitarian beliefs influence day-to-day dynamics within marriage. Using factor analysis, we calculate an `equality score' for each respondent. We hypothesise that although people are becoming more egalitarian in their worldview, the relationship between beliefs and behaviour is not as linear as one might expect. The paper proceeds as follows: 1) We describe the survey dataset and the factor analysis method used to derive the equality score. 2) We analyze how gender and education relate to the equality score. 3) We examine the relationship between equality scores and different aspects of marriage—namely finance, household chores, woman employment, and family structure.
+
+\section{Data and Methods}\label{sec:methods}
+
+The analysis uses the dataset\footnote{\href{https://www.gesis.org/en/issp/data-and-documentation/family-and-changing-gender-roles}{Family and Changing Gender Roles, ISSP, Leibniz Institute for Social Sciences}} comprising five cross-national surveys conducted in 1988, 1994, 2002, 2012, and 2022. The set of participating countries varies across survey years.
+Each survey largely replicates the core questions with three broad types: 1) Attitudes of respondents through Likert-type agreement-disagreement scales,  2) Factual information such as income, employment, hours spent on paid work, household work and childcare, and contribution to household expenses, 3) General demographic information, including sex, age, country, and marital status.
+
+This study restricts the analysis to three survey years- 2002, 2012, and 2022-since they have a larger intersection of questions, which are later used for temporal analysis. The raw data were downloaded from the official website in Stata format(.dta).  Respondents with 60\% or more missing responses are excluded. To study the relationship between attitude and behaviour, the most relevant setting is between married couples, where actions and attitudes influenced by egalitarianism play a vital role in daily life. Therefore, married, adult (over 18) respondents are selected for the analysis. Since survey questions differ across years in both their phrasing and availability, we calculate the similarity of questions and select the common and relevant ones available across all three years to create focused datasets. 
+
+The respondents’ answers to the survey questions are expected to reflect their attitudes toward gender equality. Identifying the underlying constructs that drive the observed distribution of responses is necessary for systematic measurement and analysis of the latent concept of gender equality.
+Exploratory factor analysis (EFA) is used to identify these latent variables \cite{Fabrigar_Wegener_MacCallum_Strahan_1999}. Bartlett’s test of sphericity \cite{665165e6-fdac-305e-8cab-bea8fbe62937} and the Kaiser-Meyer-Olkin (KMO) \cite{Kaiser_1970} measure are used to test the suitability of data for factor analysis. 
+Scree plot analysis \cite{Cattell01041966} is used to identify the number of common factors used in EFA. Cronbach's alpha \cite{Cronbach_1951} measures the extent to which items consistently capture the same construct.
+
+The following survey items are included in the Exploratory factor analysis, 
+\textbf{WO-WARM:} Working mother can establish a warm relationship with children, \textbf{CH-SUFFER: }Pre-school child is likely to suffer if mother works, \textbf{FM-SUFFER:} Family life suffers when woman has a full-time job, \textbf{WO-HK:} What women really want is home and kids, \textbf{HW-FULFILL: }Being a housewife is as fulfilling as working for pay, and \textbf{ME-WH:} Men’s job is to earn money, women’s job is to look after the home. 
+
+Responses to these questions are measured on a 5-point agreement-disagreement scale. Items are coded (or reverse-coded where appropriate) such that higher scores indicate egalitarian attitudes, while lower scores reflect traditional or orthodox perspectives.
+
+After conducting EFA, the weights of each question's response are computed using regression. The factor score for each respondent is then computed by taking a linear combination of the weight and response. This score determines the respondent's relative standing on the latent dimension. \cite{brown2015confirmatory} 
+
+The factor score is then used to analyse the relationship between equality displayed in respondents’ attitudes and their actions, such as contribution to household chores, control of finances, and the influence of family structure and education, on their equality. This analysis is then performed over the years to study the temporal trend.
+
+
+% The analysis uses the dataset\footnote{\href{https://www.gesis.org/en/issp/data-and-documentation/family-and-changing-gender-roles}{Family and Changing Gender Roles, ISSP, Leibniz Institute for Social Sciences}} comprising five cross-national surveys conducted in 1988, 1994, 2002, 2012, and 2022. The set of participating countries varies across survey years.
+% Each survey largely replicates the core questions with three broad types: 1) Attitudes of respondents through Likert-type agreement-disagreement scales,  2) Factual information such as income, employment, hours spent on paid work, household work and childcare, and contribution to household expenses, 3) General demographic information, including sex, age, country, and marital status.
+
+% This study restricts the analysis to three survey years- 2002, 2012, and 2022-since they have a larger intersection of questions, which are later used for temporal analysis. The raw data were downloaded from the official website in Stata format(.dta).  Respondents with 60\% or more missing responses are excluded. To study the relationship between attitude and behaviour, the most relevant setting is between married couples, where actions and attitudes influenced by egalitarianism play a vital role in daily life. Therefore, married, adult (over 18) respondents are selected for the analysis. Since survey questions differ across years in both their phrasing and availability, we calculate the similarity of questions and select the common and relevant ones available across all three years to create focused datasets for each survey year. 
+
+% The respondents’ answers to the survey questions are expected to reflect their attitudes toward gender equality. It is important to uncover the underlying constructs that drive the observed distribution of responses to allow systematic measurement and analysis of the latent concept of gender equality.
+% Exploratory factor analysis (EFA) is used to identify these latent variables underlying the responses to a set of survey questions \cite{Fabrigar_Wegener_MacCallum_Strahan_1999}.
+
+% Bartlett’s test of sphericity \cite{665165e6-fdac-305e-8cab-bea8fbe62937} and the Kaiser-Meyer-Olkin (KMO) \cite{Kaiser_1970} measure are used to test the suitability of data for factor analysis. 
+% Scree plot analysis \cite{Cattell01041966} is used to identify the number of common factors used in EFA. Cronbach's alpha \cite{Cronbach_1951} measures the extent to which items consistently capture the same construct.
+
+% The following survey items are included in the Exploratory factor analysis, 
+% \textbf{WO-WARM:} Working mother can establish a warm relationship with children, \textbf{CH-SUFFER: }Pre-school child is likely to suffer if mother works, \textbf{FM-SUFFER:} Family life suffers when woman has a full-time job, \textbf{WO-HK:} What women really want is home and kids, \textbf{HW-FULFILL: }Being a housewife is as fulfilling as working for pay, and \textbf{ME-WH:} Men’s job is to earn money, women’s job is to look after the home. 
+
+% Responses to these questions are measured on a 5-point agreement-disagreement scale. Items are coded (or reverse-coded where appropriate) such that higher scores indicate egalitarian attitudes, while lower scores reflect traditional or orthodox perspectives.
+
+% % After conducting EFA, factor scores are computed using the regression method, which considers factor scores as a linear combination of the observed variables weighted by factor loadings. 
+
+% After conducting EFA, the weights of each question's response is computed using regression. The factor score for each respondent is then computed by taking a linear combination of the weight and response. This score determines the respondent's relative standing on the latent dimension. \cite{brown2015confirmatory} 
+
+% The factor score is then used to analyse the relationship between equality displayed in respondents’ attitudes and their actions, such as contribution to household chores, control of finances, and the influence of family structure and education, on their equality. This analysis is then performed over the years to study the temporal trend.
+
+
+
+
+% % \textcolor{red}{delete}
+% % \textcolor{blue}{paraphrase}
+
+% The analysis uses the dataset\footnote{\href{https://www.gesis.org/en/issp/data-and-documentation/family-and-changing-gender-roles}{Family and Changing Gender Roles, ISSP, Leibniz Institute for Social Sciences}} comprising five cross-national surveys conducted in 1988, 1994, 2002, 2012, and 2022. The set of participating countries varies across survey years.
+% Each survey largely replicates the core questions with three broad types - 1) Attitudes of respondents through Likert-type agreement-disagreement scales,  2) Factual information such as income, employment, hours spent on paid work, household work and childcare, contribution to household expenses 3) General demographic information including sex, age, country, marital status.
+
+% This study restricts the analysis to three survey years- 2002, 2012, and 2022-since they have a larger intersection of questions which are later used for temporal analysis. The raw data was downloaded from the official website in Stata format(.dta).  Respondents with 60\% or more missing responses are excluded. To study the relationship between attitude and behavior, the most relevant setting is between married couples where actions and attitudes influenced by egalitarianism play a vital role in daily life. Therefore, married respondents over the age of 18 are selected for the analysis. Since survey questions differ across years in both their phrasing and availability, we check the similarity of questions and select the common and relevant questions available across all three years to create focused datasets for each survey year. 
+% % \textcolor{red}{In addition, a small number of substantively important questions were retained even if they were not present in all three years.}
+
+% % Furthermore, response categories for categorical questions also differed across survey years and an LLM(OpenAI GPT-5) was used to standardize these responses into consistent categorical labels suitable for analysis. 
+
+% The respondents’ answers to the survey questions are expected to reflect their attitudes toward gender equality. It is important to uncover the underlying constructs that drive the observed distribution of responses, as this allows systematical measurement and analysis of the latent concept of gender equality.
+% % According to Fabrigar, ‘Exploratory Factor Analysis is used when a researcher wishes to identify a set of latent constructs underlying a battery of measured variables.’
+% Exploratory factor analysis (EFA) is used to identify these latent variables underlying the responses to a set of survey questions.\cite{Fabrigar_Wegener_MacCallum_Strahan_1999}.
+
+% Bartlett’s test of sphericity \cite{665165e6-fdac-305e-8cab-bea8fbe62937} and the Kaiser-Meyer-Olkin (KMO) \cite{Kaiser_1970} measure are both used to assess the suitability of data for factor analysis. 
+% % Bartlett's test of sphericity tests the hypothesis that the correlation matrix obtained from the observed variables is an identity matrix, which would indicate that the variables are unrelated and therefore unsuitable for structure detection. The Kaiser-Meyer-Olkin(KMO) test measures the proportion of common variance among variables caused by the underlying construct. 
+% Scree plot analysis \cite{Cattell01041966} is used to identify the number of common factors used in EFA. Internal consistency of EFA is evaluated using Cronbach's alpha \cite{Cronbach_1951}, which measures the extent to which items consistently capture the same construct.
+
+% The following survey items are included in the Exploratory factor analysis, 
+% % \begin{itemize}
+% %     \itemsep-1em
+% %     \item WO-WARM: Working mother can establish a warm relationship with children
+% %     \item CH-SUFFER: Pre-school child is likely to suffer if mother works
+% %     \item FM-SUFFER: Family life suffers when woman has a full-time job
+% %     \item WO-HK: What women really want is home and kids
+% %     \item HW-FULFILL: Being a housewife is as fulfilling as working for pay
+% %     \item ME-WH: Men’s job is to earn money, women’s job is to look after the home
+% % \end{itemize}
+% \textbf{WO-WARM:} Working mother can establish a warm relationship with children, \textbf{CH-SUFFER: }Pre-school child is likely to suffer if mother works, \textbf{FM-SUFFER:} Family life suffers when woman has a full-time job, \textbf{WO-HK:} What women really want is home and kids, \textbf{HW-FULFILL: }Being a housewife is as fulfilling as working for pay, and \textbf{ME-WH:} Men’s job is to earn money, women’s job is to look after the home. 
+
+% Responses to these gender perception questions are measured on a 5-point agreement-disagreement scale. Items are coded (or reverse-coded where appropriate) such that higher scores indicate egalitarian attitudes toward gender roles, while lower scores reflect traditional or orthodox perspectives.
+
+% After conducting EFA, factor scores are computed using the regression method, which considers factor scores as a linear combination of the observed variables weighted by factor loadings. They determine a participant’s relative standing on the latent dimension. \cite{brown2015confirmatory} 
+
+% The factor score is then used to study the relationship between equality displayed in attitude versus the respondent's actions such as contribution to household chores, control of finances, and the influence of family structure, education on their equality. This analysis is then performed over the years to study the temporal trend.
+
+% This is the template for a figure from the original ICML submission pack. In lecture 10 we will discuss plotting in detail.
+% Refer to this lecture on how to include figures in this text.
+% 
+% \begin{figure}[ht]
+% \vskip 0.2in
+% \begin{center}
+% \centerline{\includegraphics[width=\columnwidth]{icml_numpapers}}
+% \caption{Historical locations and number of accepted papers for International
+% Machine Learning Conferences (ICML 1993 -- ICML 2008) and International
+% Workshops on Machine Learning (ML 1988 -- ML 1992). At the time this figure was
+% produced, the number of accepted papers for ICML 2008 was unknown and instead
+% estimated.}
+% \label{icml-historical}
+% \end{center}
+% \vskip -0.2in
+% \end{figure}
+
+\section{Results}\label{sec:results}
+
+% \begin{table}[H]
+% \centering
+% \footnotesize
+% \begin{tabular}{lccc}
+% \toprule
+% \textbf{Statistic} & \textbf{2002} & \textbf{2012} & \textbf{2022} \\
+% \midrule
+% KMO criterion & 0.76 & 0.77 & 0.78 \\
+% Bartlett's test (p-value) & $<0.001$ & $<0.001$ & $<0.001$ \\
+% \bottomrule
+% \end{tabular}
+% \label{tab:kmo_bartlett}
+% \caption{Sampling adequacy and suitability for factor analysis by year}
+% \end{table}
+% \begin{table}[H]
+% \centering
+% \footnotesize
+% \setlength{\tabcolsep}{3.5pt}
+% \renewcommand{\arraystretch}{0.95}
+% \resizebox{\columnwidth}{!}{%
+% \begin{tabular}{lccc|ccc}
+% \toprule
+% \textbf{Item} 
+% & \multicolumn{3}{c|}{\textbf{Factor 1}} 
+% & \multicolumn{3}{c}{\textbf{Factor 2}} \\
+% \cmidrule(lr){2-4} \cmidrule(lr){5-7}
+% & 2002 & 2012 & 2022 & 2002 & 2012 & 2022 \\
+% \midrule
+% WO-WARM     
+% & 0.526 & 0.494 & 0.524 
+% & -0.522 & -0.601 & -0.555 \\
+
+% CH-SUFFER   
+% & 0.761 & 0.770 & 0.786 
+% & -0.305 & -0.254 & -0.258 \\
+
+% FM-SUFFER   
+% & 0.758 & 0.757 & 0.775 
+% & -0.307 & -0.273 & -0.287 \\
+
+% WO-HK       
+% & 0.682 & 0.708 & 0.759 
+% & 0.374 & 0.328 & 0.307 \\
+
+% HW-FULFILL  
+% & 0.455 & 0.478 & 0.448 
+% & 0.666 & 0.651 & 0.711 \\
+
+% ME-WH       
+% & 0.717 & 0.710 & 0.777 
+% & 0.253 & 0.220 & 0.212 \\
+
+% \bottomrule
+% \end{tabular}%
+% }
+% \caption{Exploratory factor loadings by year. Factor 1 and Factor 2 correspond to the dominant latent constructs that explain the majority of the variance in the observed survey items. Item labels correspond to the survey questions defined in Section~\ref{sec:methods}.}
+% \label{tab:efa_loadings}
+% \end{table}
+
+
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{lcc}
+\toprule
+\textbf{Item} & \textbf{Factor 1} & \textbf{Factor 2} \\
+\midrule
+WO-WARM      & 0.523 & -0.558 \\
+CH-SUFFER    & 0.777 & -0.271 \\
+FM-SUFFER    & 0.769 & -0.284 \\
+WO-HK        & 0.719 & 0.333 \\
+HW-FULFILL   & 0.460 & 0.677 \\
+ME-WH        & 0.735 & 0.231 \\
+\bottomrule
+\end{tabular}
+\caption{Table 1. Loadings of survey items on two latent factors. Questions show high positive loadings on Factor 1, which represents the latent dimension of gender equality. First three variables (effect of women's employment on family) have negative loadings on Factor 2 and positive loadings for the last three variables (related to the role of women in society).}
+\label{tab:efa_loadings}
+\end{table}
+
+
+Scree plot analysis reveals two variables with eigenvalues $>1$ and hence a two-factor model is considered. We perform EFA to obtain the factor loadings for these two factors. KMO test values of $>$ 0.75, and for Bartlett's test $p<0.05$ supports the validity of the extracted loadings in Table~\ref{tab:efa_loadings} \cite{Kaiser1974LittleJM}. A high Cronbach's alpha value of $0.75$ indicates good internal consistency. 
+
+The first factor represents the underlying construct of attitudes towards gender equality for which the chosen survey items have high loadings, represented in Table~\ref{tab:efa_loadings}. For the second factor, the set of attitude questions exploring the effect of working women on family has high negative loadings, whereas the questions related to  the role of women in society have high positive loadings.
+
+As the goal of the analysis is to capture traditional and non-traditional beliefs of people, we calculate factor scores for factor 1 for each respondent, representing their standing on the latent dimension of gender equality. For the remaining analysis and discussion, this factor 1 score is referred to as the equality score, which is used as an indicator of attitudes towards gender equality. 
+
+Before analysing the relationship between attitude and behaviour, we first analyse the influence of demographics on this equality score- specifically, gender and education.
+
+
+
+
+% \textbf{Do the equality scores of men and women originate from the same distribution?} 
+% In an ideal scenario, the equality scores for men and women should come from the same distribution, signifying that there is minimal influence of gender on an individual's equality score. A permutation test is used to check the difference in the mean of men's and women's equality scores. With $p<0.001$, we can reject the null hypothesis that the scores comes from the same distribution. The difference in mean equality score between women and men is $0.0358$ with women having the higher mean. 
+% Building on this, we study the trend in equality score over the years and observe an increase in the average equality score for both male and female respondents and overall increase in the mean. However, there is no significant convergence in the mean of men and women's equality score over the years $(p = 0.97)$.  
+
+
+% \textbf{Does higher education make a person more egalitarian?} 
+% Education information for each respondent is available (distribution and categories shown in Fig.\ref{fig:edu_dist}). When studying the influence of education level on equality score, we find a positive correlation $(r=0.3103)$ between them. Each level of increase in education is associated with a 0.0705 increase in equality score. The R-squared value of 0.102 indicates that education level explains 10.2\% of the variance in equality scores. There is also a temporal effect where within each education level, equality scores increase over time. These results are shown in Fig. \ref{fig:educ_level_eq}.
+
+% We now shift the perspective of analyses to attitude-behavior alignment within a marriage.
+
+
+\textbf{Do the equality scores of men and women originate from the same distribution?} 
+In an ideal scenario, the equality scores for men and women should come from the same distribution, signifying that there is minimal influence of gender on an individual's equality score. A permutation test is used to verify this. With $p<0.001$, we reject the null hypothesis that the scores come from the same distribution. The difference in mean equality score between women and men is $0.0358$, with women having the higher mean. The mean equality scores have an increasing temporal trend for both men and women, contributing to the overall increase in mean over the years. However, there is no significant convergence in the mean of men's and women's equality score over the years.  
+
+\textbf{Does higher education make a person more egalitarian?} 
+Education information for each respondent is available (distribution and categories shown in Fig.\ref{fig:edu_dist}). When studying the influence of education level on equality score, we find a positive correlation $(r=0.3103)$ between them. Each unit of increase in education level is associated with a 0.0705 increase in equality score. The R-squared value of 0.102 indicates that education level explains 10.2\% of the variance in equality scores. There is also a temporal effect where, within each education level, equality scores increase over time. These results are shown in Fig. \ref{fig:educ_level_eq}.
+
+We now shift the perspective of analysis to egalitarian attitude-behaviour alignment within a marriage.
+
+\textbf{Does the employment of women in marriage affect the equality score?} We hypothesise that women's employment status affects the equality scores of both partners in a marriage. For men, we analyse the difference in equality scores when their spouse is employed versus unemployed. For women, we examine the difference in equality scores based on their own employment status. We use permutation tests to determine whether these represent different distributions for both men and women.
+
+We find that for both men and women, the scores do not originate from the same distributions ($p=0.001$ for both gender's tests) and depends on employment, with the average equality score of men with an employed spouse increasing by $+0.0949$ compared to having an unemployed spouse. Similarly, it increases by $+0.103$ for women. These results indicate a positive association between the equality score and the employment of women, for both genders.
+
+\textbf{What are the effects of the equality score on the cognitive load with marriage?} Finances play a vital role in marriage. When financial control rests with a single person, this is generally regarded as less egalitarian due to the unstable dynamics it creates. In contrast, shared or separate finances create no imbalance, as both parties enjoy financial independence in the relationship. Overall, shared income control is the most common arrangement, as seen in Fig. \ref{fig:income_dist}. When examining the relationship between financial control and equality score, we observe that as equality score increases, the percentage of individual control decreases, and separate and shared control increases, as shown in Table \ref{tab:money}.
+
+
+
+
+
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{2.3pt}  % default is 6pt
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Equality Level} & \textbf{Partner$\downarrow$} & \textbf{Respondent$\downarrow$} & \textbf{Separate$\uparrow$} & \textbf{Shared$\uparrow$} \\
+\midrule
+0 -- 0.37     & 18.16 & 19.28 & 5.77  & 56.79 \\
+0.37 -- 0.52          & 14.88 & 15.34 & 7.55  & 62.22 \\
+0.53 -- 0.68        & 10.28 & 11.05 & 9.70  & 68.97 \\
+0.69 --1.00     & 4.77  & 6.92  & 11.56 & 76.76 \\
+\bottomrule
+\end{tabular}
+\caption{Percentage of distribution of income control types across equality score divided into 4 quartiles. The chi-square test ($p<0.01$) shows an association between income control and equality score. One-versus-rest logistic regression to predict income category using equality scores reveals a negative association for partner and respondent ($\beta = -2.37, -2.18$), and positive association for shared and separate $(\beta = 1.69, 1.29)$.}
+% On doing a one-versus rest logistic regression analysis for predicting income control category based on equality scores, we get $\beta = -2.37, -2.18$ for partner, respondent indicating a negative association and $\beta = 1.69, 1.29$ for shared and separate indicating a positive association.}
+% One-versus-rest logistic regression on income control category to predict income category based on equality scores, we observe negative association between partner and respondent ($\beta = -2.37, -2.18$), and positive association for shared and separate ($\beta = 1.69, 1.29$).
+% Logistic regression on equality score bin gives $\beta = -2.37, -2.18$ for partner, respondent indicating a negative association and $\beta = 1.69, 1.29$ for shared and separate indicating a positive association. 
+
+
+\label{tab:money}
+\end{table}
+
+
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[t]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{ProjectTemplate/assets/finance.pdf}
+        \caption{Income Control distribution}
+        \label{fig:income_dist}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=\linewidth]{ProjectTemplate/assets/education_distribution.pdf}
+        \caption{Education distribution}
+        \label{fig:edu_dist}
+    \end{subfigure}
+    \caption{(a) shows the distribution of income control in married couples. The most common type is shared. (b) shows the distribution of education level of respondents over the years. The percentage of primary or no education decreases while the higher education percentage increases.}
+    \label{fig:dist_single_col_side}
+\end{figure}
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\linewidth]{ProjectTemplate//assets/education_gender_boxplot.pdf}
+    \caption{The change in equality score across the years and gender for each education level. Higher r value implies higher correlation between higher education level and higher equality score. Correlation for women is higher than men across years indicating that education has more influence on women than men. Within same education level, women have a higher average equality score.}
+    \label{fig:educ_level_eq}
+\end{figure}
+
+% \textbf{Temporal Dynamics and Labor Convergence:} 
+% We evaluate the temporal progression of domestic labor allocation by examining whether the weekly household work hours of men and women converge between 2002 and 2022. Statistical assessment via independent sample t-tests for assessing difference in means between men and women's household work hours reveals a persistent and highly significant gender disparity across all years ($p < 0.001$), with large effect sizes (Cohen's $d$ ranging from 0.52 to 0.89). Linear trend analysis demonstrates no significant evidence of convergece over the twenty-year period ($\beta = -0.026$ hrs/year, $p = 0.429$, $R^2 = 0.56$). 
+% The gap remains substantial- on an average women perform approximately 10.5 more weekly hours of household work than men in 2022 (female mean = 21.02 hrs, male mean = 10.50 hrs). These findings indicate lack of support for the convergence hypothesis.
+% % suggesting structural rigidity in domestic labor divisions.
+% % While the analysis indicates a discernible trend toward convergence in stated egalitarian attitudes over the twenty-year period, the behavioral record demonstrates that the aggregate gap between genders has remained effectively static. 
+% % While the egalitarian values increase over time, the egalitarian attitudes and the behavioral attitude do not demonstrate statistically significant convergence across the genders. 
+% Women consistently report performing a substantially higher volume of household work than men across all observed survey years, and the divergence between expressed values and actual household labor distribution behavior persists.
+
+% \begin{figure}[h]
+% \centering
+% \includegraphics[width=\linewidth]{ProjectTemplate/assets/h1_convergence_clean.pdf}
+% \caption{Mean weekly household work hours by gender (2002, 2012, 2022). The persistent gap ($p < 0.001$ across all years, Cohen's $d > 0.5$) demonstrates lack of evidence for labor convergence ($\beta = -0.026$ hrs/year, $p = 0.429$).}
+% \label{fig:labor_convergence}
+% \end{figure}
+\noindent \textbf{Do egalitarian attitudes translate into a more equitable distribution of household labour?} 
+We analyze the coupling between egalitarian beliefs and domestic outcomes using the men's proportion of household work, where a value of 0.5 indicates equal sharing between partners. This metric provides consistent interpretation across both genders: for male respondents, it represents their own contribution; for female respondents, it represents their partner's contribution. Values above 0.5 indicate men performing more household work (egalitarian direction), while values below 0.5 indicate women performing more (traditional pattern). We test the hypothesis that stronger egalitarian attitudes are positively associated with more equitable domestic task distribution. The analysis identifies only a weak positive association, with Pearson correlation coefficients ranging from $r = 0.108$ to $r = 0.160$ across years (all $p < 0.001$). 
+% As depicted in Fig. \ref{fig:equity_regression}, 
+Egalitarian attitudes explain merely 1- 3\% of household labour distribution behavioural variance. 
+
+
+% Crucially, Fisher's Z-tests confirm no significant strengthening of this attitude-behavior coupling from 2002 to 2022 ($Z = 1.483$, $p = 0.138$), and rank-based robustness checks (Spearman $\rho \approx 0.11$--$0.16$) validate these findings under non-parametric specifications.        
+    
+% despite the modernization of gender discourse.
+
+% \begin{figure}[h]
+% \centering
+% \includegraphics[width=\linewidth]{ProjectTemplate/assets/h2_attitude_behavior_clean.pdf}
+% \caption{Linear regression of gender-aware equity metric (male's share of household work) on normalized egalitarianism scores across survey years. The consistently low coefficient of determination ($R^{2} \approx 0.01$--$0.03$) highlights the persistent disconnect between ideology and behavior over twenty years, with no significant temporal strengthening.}
+% \label{fig:equity_regression}
+% \end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{ProjectTemplate/assets/h2_gender_stratified_all_years_clean.pdf}
+ \caption{Linear regression of respondent's share of household work on normalized equality scores. The low explained variance (R$^2 \approx$  0.003 for all years; overall R$^2$ = 0.0027) indicates a persistent disconnect between reported attitudes and reported household behavior over twenty years, with no temporal strengthening. }
+ %(slope = $-0.000024$, $p = 0.233$).}
+\label{fig:gender_equity_regression}
+\end{figure}
+
+Gender-stratified analyses of household hours as seen in Fig. \ref{fig:gender_equity_regression} show similarly weak associations with the equality score for both genders (men: $r \approx 0.11$ to $0.14$; women: $r \approx -0.11$ to $-0.13$; all $p \ll 0.001$). The explained variance is negligible ($R^2 \approx 0.01$ to $0.03$). These results support the conclusion that domestic actions remain largely decoupled from increasing the equality score. 
+
+
+
+% \textbf{Gender Convergence in Egalitarian Attitudes.} Did equality values of men and women converge over years? We examined how men's and women's egalitarian attitudes evolved from 2002 to 2022 using OLS regression with HC1 robust standard errors. In the baseline model, women scored significantly higher than men in 2002 ($\beta_1 = +0.0385$, $p < 0.001$), men's attitudes increased over time at 0.0048 points per year ($\beta_2$, $p < 0.001$), and women's attitudes increased at a slightly slower rate of 0.0044 points per year, indicating modest convergence as men ``caught up'' to women ($\beta_3 = -0.0004$, $p = 0.029$). 
+
+% After adding controls, women maintained their advantage in 2002 ($\beta_1=+0.0391$, $p < 0.001$), men's temporal trend persisted ($\beta_2=+0.0038$, $p<0.001$), but the difference in rates between genders became only marginally significant ($\beta_3=-0.000403$, $p=0.056$), and the gender gap declined from 0.0391 in 2002 to 0.0351 in 2012 and 0.0311 in 2022. 
+
+% These results suggest that while both men and women became more egalitarian over the 20-year period and the gender gap narrowed by 20\%, most of this convergence was driven by compositional changes, rising education, shifting employment patterns, changing family structures, rather than just the gender-specific attitudinal shifts.
+
+% \begin{table}[t]
+% \centering
+% \caption{Adjusted Egalitarianism Scores by Gender and Year}
+% \label{tab:gender_convergence}
+% \begin{tabular}{lccc}
+% \toprule
+% Year & Female & Male & Gap (F $-$ M) \\
+% \midrule
+% 2002 & 0.514 & 0.474 & 0.040 \\
+% 2012 & 0.533 & 0.497 & 0.036 \\
+% 2022 & 0.607 & 0.573 & 0.034 \\
+% \bottomrule
+% \end{tabular}
+% \vspace{0.3em}
+% \begin{flushleft}
+% \footnotesize
+% \caption{The mean equality scores for men and women in 2002, 2012, and 2022.
+% The values represent model-based predicted averages across two decades, women consistently exhibit higher egalitarian attitudes than men. But with time the difference between the equality of scores of men}
+% \end{flushleft}
+% \end{table}
+
+% \textbf{Is there any coupling between the number of children within the marriage and the equality score}
+\textbf{Are the equality scores coupled with the number of children within the marriage? } We observed that there is no correlation between the number of children and the equality score for both genders across years (Spearman correlation $< 0.1$).
+
+% \textbf{Does equality score capture the evolving nature of representation of women in the workforce?} 
+
+% For years, women have had a much lesser representation in the workforce. After dividing the equality scores into 4 different quartiles, the employment status (percentage of working and non-working women) is studied in each category. As the equality score increases, the employment rate grows from 40\% in the lowest equality score quartile to 70\% in the highest. 
+
+ 
+% These results indicate that the equality scores for men and women do not come from the same distribution and depends on the employment of the women in the marraige with a significance of $p = 0.0001$.
+
+% We use permutation tests to check the effect of the employment status of the woman in the marriage structure on equality score of men and women.  
+% % Similarly, when analyzing the employment status of the spouse with respect to the equality score of men, we see that a higher equality score is associated with a higher percentage of employed status. 
+
+
+% We thoroughly examined how parenthood shapes egalitarian attitudes over time. Across both genders, the number of children in a family shows limited association with the overall equality score \textbf{(R and p value)}, but exhibits statistically significant relationships with family-role--specific beliefs. 
+
+
+% Among men, additional children are associated with higher agreement that women’s employment harms family life (\textbf{FM-SUFFER}: $\beta \approx 0.045$, $p < 0.001$) and children (\textbf{CH-SUFFER}: $\beta \approx 0.011$, $p < 0.05$), with positive interaction terms indicating that these associations intensify over time. 
+
+% Among women, baseline differences by number of children are generally weak, but significant interaction effects emerge for multiple pillars (e.g., \textbf{MEWH}, \textbf{WO-WANT}), suggesting that the attitudinal divide by motherhood develops primarily through temporal change rather than initial selection. Overall, parenthood does not uniformly reduce egalitarianism; instead, it increasingly differentiates attitudes along family-centered normative dimensions, with stable effects among men and time-emergent effects among women.
+
+
+% We next examined whether living in a dual-earner household is associated with egalitarian attitudes and whether this relationship evolves over time. Dual-earner status emerges as a strong and reliable predictor of egalitarian beliefs, particularly among women, across all survey years. Women in dual-earner households exhibit substantially lower endorsement of traditional family and gender norms (e.g., \textbf{FM-SUFFER}: $\beta \approx -0.39$, $p < 0.001$; \textbf{MEWH}: $\beta \approx -0.51$, $p < 0.001$), with effect sizes that remain large and stable between 2002 and 2022. Among men, dual-earner status is associated with more egalitarian attitudes on selected pillars; however, effect sizes are smaller and temporal interaction effects are mixed, indicating persistence rather than amplification over time. Together, these findings suggest that dual-earner arrangements function as a structural determinant of egalitarianism, especially for women, producing robust attitudinal differences that change little over time once household roles are established.
+
+
+
+\section{Discussion \& Conclusion}\label{sec:conclusion}
+
+Our study analyses the relationship between egalitarian attitudes and behaviour within marriage using the cross-national survey data from 2002, 2012, and 2022. We construct an equality score using exploratory factor analysis to measure how egalitarian respondents are in their attitudes and study this against different demographics and marital behaviour.
+
+Our analysis reveals that equality scores increase over the years, indicating a positive shift in attitudes. As expected, the average equality score for women is higher than for men, to the extent that the scores for different genders do not seem to originate from the same distributions. We also find that higher education levels are often associated with higher equality scores. This highlights the importance of education in evolving mindsets for a more egalitarian society. 
+
+When examining how egalitarian attitudes translate into behaviour within marriage, we find a more complex picture. We first analyse that the working woman in the marriage results in a better equality score for both genders. We also analyse financial control to identify trends in which partner has more control. As equality scores increase, the percentage of shared or separate income control increases, showing consistency between attitudes and behaviour. However, when we examine the distribution of household work, one of the fundamental behavioural units in marriage, we find a very weak association between the equality score and division of household work. Although there is a weak positive correlation between men's household work hours and equality score, and a weak negative correlation between women's household work hours and equality score, neither is statistically significant.
+
+We now examine the study’s findings in light of certain limitations. Although the second factor is statistically sound, it does not lend a clear interpretation based on the available survey questions, which suggests the need for a more targeted analysis in future studies. The analysis relies on self-reported survey responses, which may be influenced by the differences in interpretation and social desirability (respondents may express egalitarian attitudes that are socially acceptable instead of adopted beliefs or practices). Gender equality is a complex construct that cannot be captured by a limited set of survey questions. 
+
+We find that while egalitarian attitudes are increasing and are associated with some egalitarian behaviours, particularly financial arrangements, there is no linear relationship between increasing equality scores and more egalitarian behaviour within marriage, especially for household labour. Achieving gender equality in marriage requires more than changing attitudes—it demands attention to the structural and practical factors that shape daily behaviours.
+
+
+\newpage
+
+\section*{Contribution Statement}
+\begin{enumerate}
+    \item \textbf{Rashika Kukreja:} Manuscript preparation, exploratory data analysis, construction of equality score. 
+    \item \textbf{Ashish Papanai:} Manuscript preparation, literature review, dataset extraction, statistical tests on hypothesis related to household variable and equality score. 
+    \item \textbf{Karuna K Chandra:} Manuscript preparation, dataset cleaning and harmonization, statistical tests on hypothesis related to education, finance, female employment and equality score.
+    \item \textbf{Siddharth Pandey:} Manuscript preparation, literature review, factor analysis, dataset cleaning and harmonization
+    \item  \textbf{Snehil Seenu:} Manuscript preparation, statistical analysis on child care and equality score. 
+\end{enumerate}
+% Explain here, in one sentence per person, what each group member contributed. For example, you could write: Max Mustermann collected and prepared data. Gabi Musterfrau and John Doe performed the data analysis. Jane Doe produced visualizations. All authors will jointly wrote the text of the report. Note that you, as a group, are collectively responsible for the report. Your contributions should be roughly equal in amount and difficulty.
+
+% \section*{Notes} 
+
+% Your entire report has a \textbf{hard page limit of 4 pages} excluding references and the contribution statement. (I.e. any pages beyond page 4 must only contain the contribution statement and references). Appendices are \emph{not} possible. But you can put additional material, like interactive visualizations or videos, on a githunb repo (use \href{https://github.com/pnkraemer/tueplots}{links} in your pdf to refer to them). Each report has to contain \textbf{at least three plots or visualizations}, and \textbf{cite at least two references}. More details about how to prepare the report, inclucing how to produce plots, cite correctly, and how to ideally structure your github repo, will be discussed in the lecture, where a rubric for the evaluation will also be provided.
+
+
+\bibliography{bibliography}
+\bibliographystyle{icml2025}
+
+\end{document}
+
+% This document was modified from the files available at https://icml.cc/Conferences/2025/AuthorInstructions
+% the full copyright notice is available within the file icml2025.sty
